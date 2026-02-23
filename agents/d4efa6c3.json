@@ -1,0 +1,100 @@
+{
+  "agent_id": "d4efa6c3",
+  "name": "Bill_d4efa6c3",
+  "color": "\ud83d\udd35",
+  "archetype": "Contrarian",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 291.6,
+  "positions": {
+    "BTC-USD": {
+      "symbol": "BTC-USD",
+      "direction": "LONG",
+      "qty": 0.04415737201098961,
+      "entry_price": 64181.7734375,
+      "entry_time": "2026-02-23T20:14:01.263856",
+      "leverage": 6.161083578271172,
+      "margin": 460.0,
+      "notional_value": 2834.098446004739,
+      "unrealized_pnl": -5.6875040129623455,
+      "reason": "Contrarian: Down -5.2%, buying fear",
+      "current_price": 64052.97265625
+    },
+    "ETH-USD": {
+      "symbol": "ETH-USD",
+      "direction": "LONG",
+      "qty": 0.8362405171461488,
+      "entry_price": 1853.3790283203125,
+      "entry_time": "2026-02-23T20:15:10.794903",
+      "leverage": 6.239414803181984,
+      "margin": 248.4,
+      "notional_value": 1549.870637110405,
+      "unrealized_pnl": -0.7978583840349486,
+      "reason": "Contrarian: Down -5.2%, buying fear",
+      "current_price": 1852.4249267578125
+    }
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "BTC-USD",
+      "direction": "LONG",
+      "price": 64181.7734375,
+      "qty": 0.04415737201098961,
+      "leverage": 6.161083578271172,
+      "margin": 460.0,
+      "time": "2026-02-23T20:14:01.263865",
+      "reason": "Contrarian: Down -5.2%, buying fear"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "ETH-USD",
+      "direction": "LONG",
+      "price": 1853.3790283203125,
+      "qty": 0.8362405171461488,
+      "leverage": 6.239414803181984,
+      "margin": 248.4,
+      "time": "2026-02-23T20:15:10.794910",
+      "reason": "Contrarian: Down -5.2%, buying fear"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T20:14:01.263931",
+      "portfolio_value": 1000.0,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T20:15:10.794975",
+      "portfolio_value": 997.5722069880677,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T20:30:07.242974",
+      "portfolio_value": 993.5146376030027,
+      "cash": 291.6,
+      "positions": 2
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.15,
+    "stop_loss_pct": 0.023,
+    "take_profit_pct": 0.084,
+    "max_positions": 3,
+    "position_size_pct": 0.46,
+    "max_leverage": 20,
+    "min_hold_minutes": 57,
+    "preferred_assets": [
+      "BTC-USD",
+      "ETH-USD",
+      "SPY"
+    ]
+  },
+  "created_at": "2026-02-23T20:30:06.556761",
+  "portfolio_value": 993.5146376030027,
+  "total_pnl": -6.485362396997289,
+  "total_pnl_pct": -0.6485362396997288,
+  "win_rate": 0.0
+}

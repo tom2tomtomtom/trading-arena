@@ -1,0 +1,225 @@
+{
+  "agent_id": "efd29c1d",
+  "name": "Gus_efd29c1d",
+  "color": "\ud83d\udd34",
+  "archetype": "Mean Reverter",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 996.7596984961731,
+  "positions": {},
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "ETH-USD",
+      "direction": "LONG",
+      "price": 1856.9248046875,
+      "qty": 0.5843287046765817,
+      "leverage": 6.028080365582563,
+      "margin": 180.0,
+      "time": "2026-02-23T17:35:05.623490",
+      "reason": "Oversold: RSI 15"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "BTC-USD",
+      "direction": "LONG",
+      "price": 64556.41796875,
+      "qty": 0.015433835734949245,
+      "leverage": 6.750360098688438,
+      "margin": 147.6,
+      "time": "2026-02-23T17:40:04.812244",
+      "reason": "Oversold: RSI 13"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "SPY",
+      "direction": "LONG",
+      "price": 680.8499755859375,
+      "qty": 1.3581117246203882,
+      "leverage": 7.639883126369611,
+      "margin": 121.032,
+      "time": "2026-02-23T19:45:04.887393",
+      "reason": "Oversold: RSI 10"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETH-USD",
+      "direction": "LONG",
+      "entry_price": 1856.9248046875,
+      "exit_price": 1856.7437744140625,
+      "qty": 0.5843287046765817,
+      "pnl": -0.10578118518498177,
+      "pnl_pct": -0.058767325102767644,
+      "hold_time": "2:26:31.840543",
+      "time": "2026-02-23T20:01:37.464035",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTC-USD",
+      "direction": "LONG",
+      "entry_price": 64556.41796875,
+      "exit_price": 64306.68359375,
+      "qty": 0.015433835734949245,
+      "pnl": -3.8543593211202154,
+      "pnl_pct": -2.611354553604482,
+      "hold_time": "2:21:32.651809",
+      "time": "2026-02-23T20:01:37.464050",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SPY",
+      "direction": "LONG",
+      "entry_price": 680.8499755859375,
+      "exit_price": 681.3800048828125,
+      "qty": 1.3581117246203882,
+      "pnl": 0.719839002478238,
+      "pnl_pct": 0.5947509769963629,
+      "hold_time": "0:16:32.613769",
+      "time": "2026-02-23T20:01:37.501157",
+      "reason": "RACE_END"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T17:01:36.491968",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:05:33.418006",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:10:17.916631",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:15:10.432799",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:20:04.659690",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:25:05.411355",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:30:05.041450",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:35:05.623544",
+      "portfolio_value": 1000.0,
+      "cash": 820.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:40:04.812293",
+      "portfolio_value": 994.6323359760349,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:45:09.649628",
+      "portfolio_value": 995.964250557742,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:50:05.308167",
+      "portfolio_value": 994.2198814788119,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:55:04.982211",
+      "portfolio_value": 993.6268921418992,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T18:00:27.887695",
+      "portfolio_value": 1000.2231483816023,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:05:30.011480",
+      "portfolio_value": 1003.1812041566133,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:10:14.504556",
+      "portfolio_value": 1005.1236425488638,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:15:13.541514",
+      "portfolio_value": 1007.713715662681,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:20:19.004113",
+      "portfolio_value": 1004.3285339903405,
+      "cash": 672.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:45:04.887451",
+      "portfolio_value": 992.8334842249382,
+      "cash": 551.3679999999999,
+      "positions": 3
+    },
+    {
+      "timestamp": "2026-02-23T19:55:04.969851",
+      "portfolio_value": 992.3949316522763,
+      "cash": 551.3679999999999,
+      "positions": 3
+    },
+    {
+      "timestamp": "2026-02-23T20:00:05.773094",
+      "portfolio_value": 994.2301319657423,
+      "cash": 551.3679999999999,
+      "positions": 3
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.3,
+    "stop_loss_pct": 0.042,
+    "take_profit_pct": 0.124,
+    "max_positions": 5,
+    "position_size_pct": 0.18,
+    "max_leverage": 20,
+    "min_hold_minutes": 28,
+    "preferred_assets": [
+      "ETH-USD",
+      "BTC-USD",
+      "SPY"
+    ]
+  },
+  "created_at": "2026-02-23T20:01:36.940725",
+  "portfolio_value": 996.7596984961731,
+  "total_pnl": -3.240301503826913,
+  "total_pnl_pct": -0.3240301503826913,
+  "win_rate": 16.666666666666664
+}

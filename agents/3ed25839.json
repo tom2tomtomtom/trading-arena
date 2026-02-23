@@ -1,0 +1,177 @@
+{
+  "agent_id": "3ed25839",
+  "name": "Danny_3ed25839",
+  "color": "\ud83d\udd35",
+  "archetype": "YOLO",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 1127.0179105370137,
+  "positions": {},
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "BTC-USD",
+      "direction": "SHORT",
+      "price": 65366.02734375,
+      "qty": 0.11990244954672524,
+      "leverage": 7.8375467956538465,
+      "margin": 1000.0,
+      "time": "2026-02-23T17:01:38.478263",
+      "reason": "YOLO: Big move -3.4%"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTC-USD",
+      "direction": "SHORT",
+      "entry_price": 65366.02734375,
+      "exit_price": 64306.68359375,
+      "qty": 0.11990244954672524,
+      "pnl": 127.01791053701372,
+      "pnl_pct": 12.701791053701372,
+      "hold_time": "2:59:59.024078",
+      "time": "2026-02-23T20:01:37.502341",
+      "reason": "RACE_END"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T17:01:38.478308",
+      "portfolio_value": 1000.0,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:05:35.740830",
+      "portfolio_value": 995.6675872722375,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:10:20.092405",
+      "portfolio_value": 995.8263643440981,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:15:12.751131",
+      "portfolio_value": 1001.8936156387399,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:20:06.645108",
+      "portfolio_value": 1030.056640213914,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:25:07.379065",
+      "portfolio_value": 1066.1603918578976,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:30:07.391790",
+      "portfolio_value": 1070.4736014589748,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:35:07.603404",
+      "portfolio_value": 1094.930422583902,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:40:06.985385",
+      "portfolio_value": 1097.0741472384932,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:45:11.696039",
+      "portfolio_value": 1089.224283744731,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:50:07.695484",
+      "portfolio_value": 1107.373111938036,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:55:07.125264",
+      "portfolio_value": 1109.8863796890819,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T18:00:29.765937",
+      "portfolio_value": 1093.187153376039,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T19:05:32.157093",
+      "portfolio_value": 1082.6947523028134,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T19:10:16.522219",
+      "portfolio_value": 1074.0074451379985,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T19:15:15.749139",
+      "portfolio_value": 1067.5336496003624,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T19:20:20.951886",
+      "portfolio_value": 1083.1153476141142,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T19:45:06.871692",
+      "portfolio_value": 1128.3832060074383,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T19:55:06.872449",
+      "portfolio_value": 1140.6835112027356,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T20:00:08.010595",
+      "portfolio_value": 1134.9909550629275,
+      "cash": 0.0,
+      "positions": 1
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.27,
+    "stop_loss_pct": 0.034,
+    "take_profit_pct": 0.139,
+    "max_positions": 1,
+    "position_size_pct": 1.0,
+    "max_leverage": 15,
+    "min_hold_minutes": 55,
+    "preferred_assets": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD"
+    ]
+  },
+  "created_at": "2026-02-23T20:01:36.940746",
+  "portfolio_value": 1127.0179105370137,
+  "total_pnl": 127.01791053701368,
+  "total_pnl_pct": 12.701791053701367,
+  "win_rate": 50.0
+}

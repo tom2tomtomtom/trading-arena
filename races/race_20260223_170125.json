@@ -1,0 +1,3153 @@
+{
+  "race_id": "race_20260223_170125",
+  "agents": [
+    "86fdc49c",
+    "2d550765",
+    "efd29c1d",
+    "b47e8381",
+    "e45944ca",
+    "3ed25839",
+    "003ee655"
+  ],
+  "duration_hours": 3,
+  "risk_tier": "high",
+  "start_time": "2026-02-23T17:01:25.341252",
+  "end_time": "2026-02-23T20:01:36.940857",
+  "status": "completed",
+  "snapshots": [
+    {
+      "timestamp": "2026-02-23T17:01:38.548012",
+      "elapsed_seconds": 13.206772,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 4,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:05:35.880273",
+      "elapsed_seconds": 250.539033,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1000.8558072814668,
+          "pnl": 0.8558072814668094,
+          "pnl_pct": 0.08558072814668094,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1000.7956545014125,
+          "pnl": 0.795654501412514,
+          "pnl_pct": 0.07956545014125141,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 995.6675872722375,
+          "pnl": -4.332412727762517,
+          "pnl_pct": -0.4332412727762517,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:10:20.209705",
+      "elapsed_seconds": 534.868472,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1001.2553233383827,
+          "pnl": 1.2553233383827092,
+          "pnl_pct": 0.12553233383827092,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1000.8632904336665,
+          "pnl": 0.8632904336665206,
+          "pnl_pct": 0.08632904336665206,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 995.8263643440981,
+          "pnl": -4.173635655901876,
+          "pnl_pct": -0.41736356559018756,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:15:12.858673",
+      "elapsed_seconds": 827.517443,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1002.4538715091304,
+          "pnl": 2.4538715091304084,
+          "pnl_pct": 0.24538715091304084,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1001.8936156387399,
+          "pnl": 1.8936156387399024,
+          "pnl_pct": 0.18936156387399022,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1000.3155205118114,
+          "pnl": 0.31552051181142815,
+          "pnl_pct": 0.031552051181142814,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:20:06.721670",
+      "elapsed_seconds": 1121.380433,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1030.056640213914,
+          "pnl": 30.05664021391408,
+          "pnl_pct": 3.005664021391408,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1008.5637538666216,
+          "pnl": 8.563753866621596,
+          "pnl_pct": 0.8563753866621596,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1001.882985007574,
+          "pnl": 1.8829850075740069,
+          "pnl_pct": 0.1882985007574007,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 4,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 5,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:25:07.435542",
+      "elapsed_seconds": 1422.094303,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1066.1603918578976,
+          "pnl": 66.1603918578976,
+          "pnl_pct": 6.61603918578976,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1008.1785349213899,
+          "pnl": 8.178534921389883,
+          "pnl_pct": 0.8178534921389882,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1001.2484882622886,
+          "pnl": 1.2484882622885607,
+          "pnl_pct": 0.12484882622885607,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 999.9428765184532,
+          "pnl": -0.05712348154679603,
+          "pnl_pct": -0.005712348154679603,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:30:07.468794",
+      "elapsed_seconds": 1722.127556,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1070.4736014589748,
+          "pnl": 70.47360145897483,
+          "pnl_pct": 7.047360145897483,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1010.4372147727047,
+          "pnl": 10.437214772704692,
+          "pnl_pct": 1.0437214772704693,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1009.7605907019149,
+          "pnl": 9.760590701914907,
+          "pnl_pct": 0.9760590701914907,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1000.941492503787,
+          "pnl": 0.9414925037870034,
+          "pnl_pct": 0.09414925037870035,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 5,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:35:07.669923",
+      "elapsed_seconds": 2022.328682,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1094.930422583902,
+          "pnl": 94.9304225839021,
+          "pnl_pct": 9.49304225839021,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1028.5041471867753,
+          "pnl": 28.5041471867753,
+          "pnl_pct": 2.85041471867753,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1027.8831377507156,
+          "pnl": 27.883137750715605,
+          "pnl_pct": 2.7883137750715608,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1004.1658343859759,
+          "pnl": 4.165834385975927,
+          "pnl_pct": 0.41658343859759267,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 6,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:40:07.075222",
+      "elapsed_seconds": 2321.733995,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1097.0741472384932,
+          "pnl": 97.0741472384932,
+          "pnl_pct": 9.70741472384932,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1040.0688253973594,
+          "pnl": 40.06882539735943,
+          "pnl_pct": 4.006882539735943,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1030.4390575108314,
+          "pnl": 30.43905751083139,
+          "pnl_pct": 3.043905751083139,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1015.290218627599,
+          "pnl": 15.29021862759896,
+          "pnl_pct": 1.529021862759896,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 994.6323359760349,
+          "pnl": -5.367664023965062,
+          "pnl_pct": -0.5367664023965062,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:45:11.778328",
+      "elapsed_seconds": 2626.437092,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1089.224283744731,
+          "pnl": 89.22428374473111,
+          "pnl_pct": 8.92242837447311,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1044.5831475468096,
+          "pnl": 44.58314754680964,
+          "pnl_pct": 4.4583147546809645,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1034.6542167830958,
+          "pnl": 34.65421678309576,
+          "pnl_pct": 3.465421678309576,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1011.2784425885641,
+          "pnl": 11.278442588564076,
+          "pnl_pct": 1.1278442588564075,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 995.964250557742,
+          "pnl": -4.035749442257952,
+          "pnl_pct": -0.40357494422579526,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:50:07.768608",
+      "elapsed_seconds": 2922.427369,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1107.373111938036,
+          "pnl": 107.37311193803589,
+          "pnl_pct": 10.737311193803588,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1053.4870365737768,
+          "pnl": 53.48703657377678,
+          "pnl_pct": 5.348703657377678,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1041.354238217985,
+          "pnl": 41.354238217985085,
+          "pnl_pct": 4.135423821798509,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1012.7558299787073,
+          "pnl": 12.755829978707311,
+          "pnl_pct": 1.2755829978707312,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 994.2198814788119,
+          "pnl": -5.780118521188115,
+          "pnl_pct": -0.5780118521188116,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T17:55:07.205798",
+      "elapsed_seconds": 3221.864564,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1109.8863796890819,
+          "pnl": 109.88637968908188,
+          "pnl_pct": 10.988637968908188,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1061.5944056588185,
+          "pnl": 61.59440565881846,
+          "pnl_pct": 6.159440565881845,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1043.0218634757007,
+          "pnl": 43.021863475700684,
+          "pnl_pct": 4.302186347570068,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 999.9684216596258,
+          "pnl": -0.03157834037415341,
+          "pnl_pct": -0.003157834037415341,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 993.6268921418992,
+          "pnl": -6.373107858100752,
+          "pnl_pct": -0.6373107858100752,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T18:00:29.847914",
+      "elapsed_seconds": 3544.506675,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1093.187153376039,
+          "pnl": 93.18715337603908,
+          "pnl_pct": 9.318715337603908,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1059.0592942948033,
+          "pnl": 59.059294294803294,
+          "pnl_pct": 5.905929429480329,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1042.3780394569167,
+          "pnl": 42.37803945691667,
+          "pnl_pct": 4.237803945691667,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.2231483816023,
+          "pnl": 0.2231483816023001,
+          "pnl_pct": 0.02231483816023001,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 996.8771788007363,
+          "pnl": -3.12282119926374,
+          "pnl_pct": -0.31228211992637395,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T19:05:32.244652",
+      "elapsed_seconds": 7446.903415,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1082.6947523028134,
+          "pnl": 82.69475230281341,
+          "pnl_pct": 8.26947523028134,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1019.5483543286032,
+          "pnl": 19.548354328603182,
+          "pnl_pct": 1.9548354328603184,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1014.4855309746594,
+          "pnl": 14.485530974659355,
+          "pnl_pct": 1.4485530974659355,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1003.1812041566133,
+          "pnl": 3.181204156613262,
+          "pnl_pct": 0.3181204156613262,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 998.2452247685299,
+          "pnl": -1.7547752314701484,
+          "pnl_pct": -0.1754775231470148,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T19:10:16.608075",
+      "elapsed_seconds": 7731.266838,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1074.0074451379985,
+          "pnl": 74.0074451379985,
+          "pnl_pct": 7.40074451379985,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1016.097340435788,
+          "pnl": 16.097340435788055,
+          "pnl_pct": 1.6097340435788057,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1012.7324090691507,
+          "pnl": 12.732409069150663,
+          "pnl_pct": 1.2732409069150663,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1005.1236425488638,
+          "pnl": 5.123642548863813,
+          "pnl_pct": 0.5123642548863814,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 996.7034640762681,
+          "pnl": -3.2965359237318808,
+          "pnl_pct": -0.3296535923731881,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T19:15:15.843357",
+      "elapsed_seconds": 8030.502123,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1067.5336496003624,
+          "pnl": 67.53364960036242,
+          "pnl_pct": 6.753364960036243,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1010.0520497691175,
+          "pnl": 10.052049769117502,
+          "pnl_pct": 1.0052049769117504,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1007.713715662681,
+          "pnl": 7.713715662681011,
+          "pnl_pct": 0.7713715662681011,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1007.6240012210512,
+          "pnl": 7.6240012210512305,
+          "pnl_pct": 0.762400122105123,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 994.7547733707187,
+          "pnl": -5.245226629281319,
+          "pnl_pct": -0.5245226629281319,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T19:20:21.032944",
+      "elapsed_seconds": 8335.691726,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1083.1153476141142,
+          "pnl": 83.11534761411417,
+          "pnl_pct": 8.311534761411417,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1013.1081486711372,
+          "pnl": 13.1081486711372,
+          "pnl_pct": 1.31081486711372,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1009.4495430131057,
+          "pnl": 9.449543013105654,
+          "pnl_pct": 0.9449543013105653,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1004.3285339903405,
+          "pnl": 4.328533990340475,
+          "pnl_pct": 0.43285339903404746,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 999.5199513309494,
+          "pnl": -0.48004866905057497,
+          "pnl_pct": -0.0480048669050575,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T19:45:06.953916",
+      "elapsed_seconds": 9821.61268,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1128.3832060074383,
+          "pnl": 128.38320600743828,
+          "pnl_pct": 12.838320600743828,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1038.7494675421017,
+          "pnl": 38.749467542101684,
+          "pnl_pct": 3.8749467542101685,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1024.5384908272792,
+          "pnl": 24.538490827279247,
+          "pnl_pct": 2.453849082727925,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1013.6842951879399,
+          "pnl": 13.684295187939938,
+          "pnl_pct": 1.3684295187939939,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 992.8334842249382,
+          "pnl": -7.166515775061839,
+          "pnl_pct": -0.7166515775061839,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T19:55:06.943835",
+      "elapsed_seconds": 10421.6026,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1140.6835112027356,
+          "pnl": 140.68351120273564,
+          "pnl_pct": 14.068351120273565,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1044.450237303191,
+          "pnl": 44.45023730319099,
+          "pnl_pct": 4.445023730319099,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1031.1127762797237,
+          "pnl": 31.112776279723676,
+          "pnl_pct": 3.1112776279723677,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1015.0893738159524,
+          "pnl": 15.0893738159524,
+          "pnl_pct": 1.5089373815952398,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 992.3949316522763,
+          "pnl": -7.605068347723659,
+          "pnl_pct": -0.7605068347723659,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-23T20:00:08.089501",
+      "elapsed_seconds": 10722.748269,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udd35",
+          "name": "Danny_3ed25839",
+          "archetype": "YOLO",
+          "portfolio_value": 1134.9909550629275,
+          "pnl": 134.99095506292747,
+          "pnl_pct": 13.499095506292747,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u2b1b",
+          "name": "Eric_2d550765",
+          "archetype": "Breakout Hunter",
+          "portfolio_value": 1045.8447327109532,
+          "pnl": 45.84473271095317,
+          "pnl_pct": 4.584473271095317,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe1",
+          "name": "Robert_003ee655",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1031.8049443873174,
+          "pnl": 31.80494438731739,
+          "pnl_pct": 3.180494438731739,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 4,
+          "color": "\ud83d\udfe3",
+          "name": "Harper_86fdc49c",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1016.0906721033357,
+          "pnl": 16.09067210333569,
+          "pnl_pct": 1.609067210333569,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Clement_b47e8381",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udd34",
+          "name": "Yasmin_e45944ca",
+          "archetype": "Whale Watcher",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udd34",
+          "name": "Gus_efd29c1d",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 994.2301319657423,
+          "pnl": -5.769868034257684,
+          "pnl_pct": -0.5769868034257684,
+          "trades": 3,
+          "win_rate": 0.0,
+          "positions": 3
+        }
+      ]
+    }
+  ],
+  "agents_full": [
+    {
+      "agent_id": "86fdc49c",
+      "name": "Harper_86fdc49c",
+      "color": "\ud83d\udfe3",
+      "archetype": "Trend Follower",
+      "risk_tier": "high",
+      "starting_capital": 1000.0,
+      "cash": 1012.0581972726094,
+      "positions": {},
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "QQQ",
+          "direction": "SHORT",
+          "price": 601.0399780273438,
+          "qty": 5.706775132092719,
+          "leverage": 7.0,
+          "margin": 490.0,
+          "time": "2026-02-23T17:01:36.267854",
+          "reason": "Trend: Below SMA, RSI 45"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "NVDA",
+          "direction": "SHORT",
+          "price": 190.6300048828125,
+          "qty": 9.176414809805838,
+          "leverage": 7.0,
+          "margin": 249.9,
+          "time": "2026-02-23T17:35:05.432102",
+          "reason": "Trend: Below SMA, RSI 53"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "BTC-USD",
+          "direction": "SHORT",
+          "price": 64676.34375,
+          "qty": 0.013793961567284792,
+          "leverage": 7.0,
+          "margin": 127.44900000000001,
+          "time": "2026-02-23T19:05:29.832644",
+          "reason": "Trend: Below SMA, RSI 59"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "QQQ",
+          "direction": "SHORT",
+          "entry_price": 601.0399780273438,
+          "exit_price": 599.885009765625,
+          "qty": 5.706775132092719,
+          "pnl": 6.591144154332918,
+          "pnl_pct": 1.3451314600679423,
+          "hold_time": "3:00:00.976412",
+          "time": "2026-02-23T20:01:37.244265",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "NVDA",
+          "direction": "SHORT",
+          "entry_price": 190.6300048828125,
+          "exit_price": 190.58990478515625,
+          "qty": 9.176414809805838,
+          "pnl": 0.36797513000747284,
+          "pnl_pct": 0.14724895158362258,
+          "hold_time": "2:26:31.852435",
+          "time": "2026-02-23T20:01:37.284535",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "BTC-USD",
+          "direction": "SHORT",
+          "entry_price": 64676.34375,
+          "exit_price": 64306.68359375,
+          "qty": 0.013793961567284792,
+          "pnl": 5.099077988268991,
+          "pnl_pct": 4.000877204426077,
+          "hold_time": "0:56:07.497832",
+          "time": "2026-02-23T20:01:37.330478",
+          "reason": "RACE_END"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T17:01:36.267915",
+          "portfolio_value": 1000.0,
+          "cash": 510.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:05:33.199997",
+          "portfolio_value": 1000.8558072814668,
+          "cash": 510.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:10:17.689581",
+          "portfolio_value": 1001.2553233383827,
+          "cash": 510.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:15:10.220938",
+          "portfolio_value": 1002.4538715091304,
+          "cash": 510.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:20:04.458780",
+          "portfolio_value": 1001.882985007574,
+          "cash": 510.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:25:05.187462",
+          "portfolio_value": 999.9428765184532,
+          "cash": 510.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:30:04.820214",
+          "portfolio_value": 1000.941492503787,
+          "cash": 510.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:35:05.432157",
+          "portfolio_value": 1004.1658343859759,
+          "cash": 260.1,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:40:04.602258",
+          "portfolio_value": 1015.290218627599,
+          "cash": 260.1,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:45:09.407588",
+          "portfolio_value": 1011.2784425885641,
+          "cash": 260.1,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:50:05.107524",
+          "portfolio_value": 1012.7558299787073,
+          "cash": 260.1,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:55:04.777340",
+          "portfolio_value": 999.9684216596258,
+          "cash": 260.1,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T18:00:27.673432",
+          "portfolio_value": 996.8771788007363,
+          "cash": 260.1,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:05:29.832693",
+          "portfolio_value": 998.2452247685299,
+          "cash": 132.651,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T19:10:14.304104",
+          "portfolio_value": 996.7034640762681,
+          "cash": 132.651,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T19:15:13.361490",
+          "portfolio_value": 994.7547733707187,
+          "cash": 132.651,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T19:20:18.824595",
+          "portfolio_value": 999.5199513309494,
+          "cash": 132.651,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T19:45:04.653449",
+          "portfolio_value": 1013.6842951879399,
+          "cash": 132.651,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T19:55:04.807406",
+          "portfolio_value": 1015.0893738159524,
+          "cash": 132.651,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T20:00:05.580084",
+          "portfolio_value": 1016.0906721033357,
+          "cash": 132.651,
+          "positions": 3
+        }
+      ],
+      "strategy_params": {
+        "entry_threshold": 0.14,
+        "stop_loss_pct": 0.076,
+        "take_profit_pct": 0.071,
+        "max_positions": 4,
+        "position_size_pct": 0.49,
+        "max_leverage": 20,
+        "min_hold_minutes": 33,
+        "preferred_assets": [
+          "BTC-USD",
+          "QQQ",
+          "NVDA"
+        ]
+      },
+      "created_at": "2026-02-23T20:01:36.940671",
+      "portfolio_value": 1012.0581972726094,
+      "total_pnl": 12.058197272609391,
+      "total_pnl_pct": 1.2058197272609392,
+      "win_rate": 50.0
+    },
+    {
+      "agent_id": "2d550765",
+      "name": "Eric_2d550765",
+      "color": "\u2b1b",
+      "archetype": "Breakout Hunter",
+      "risk_tier": "high",
+      "starting_capital": 1000.0,
+      "cash": 1043.7659791135104,
+      "positions": {},
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "SOL-USD",
+          "direction": "SHORT",
+          "price": 78.7485580444336,
+          "qty": 38.603881461355655,
+          "leverage": 8.0,
+          "margin": 380.0,
+          "time": "2026-02-23T17:20:04.550729",
+          "reason": "Breakdown: Near low $77.29"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "AVAX-USD",
+          "direction": "SHORT",
+          "price": 8.488672256469727,
+          "qty": 222.03707989355823,
+          "leverage": 8.0,
+          "margin": 235.6,
+          "time": "2026-02-23T17:25:05.314528",
+          "reason": "Breakdown: Near low $8.35"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "SOL-USD",
+          "direction": "SHORT",
+          "entry_price": 78.7485580444336,
+          "exit_price": 78.22045135498047,
+          "qty": 38.603881461355655,
+          "pnl": 20.386968038597402,
+          "pnl_pct": 5.364991589104579,
+          "hold_time": "2:41:32.826980",
+          "time": "2026-02-23T20:01:37.377709",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "AVAX-USD",
+          "direction": "SHORT",
+          "entry_price": 8.488672256469727,
+          "exit_price": 8.383378982543945,
+          "qty": 222.03707989355823,
+          "pnl": 23.379011074913002,
+          "pnl_pct": 9.923179573392616,
+          "hold_time": "2:36:32.107157",
+          "time": "2026-02-23T20:01:37.421684",
+          "reason": "RACE_END"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T17:01:36.388041",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:05:33.314115",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:10:17.805839",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:15:10.331831",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:20:04.550785",
+          "portfolio_value": 1000.0,
+          "cash": 620.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:25:05.314579",
+          "portfolio_value": 1001.2484882622886,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:30:04.920770",
+          "portfolio_value": 1009.7605907019149,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:35:05.529840",
+          "portfolio_value": 1028.5041471867753,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:40:04.694713",
+          "portfolio_value": 1040.0688253973594,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:45:09.512442",
+          "portfolio_value": 1044.5831475468096,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:50:05.187827",
+          "portfolio_value": 1053.4870365737768,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:55:04.856665",
+          "portfolio_value": 1061.5944056588185,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T18:00:27.763654",
+          "portfolio_value": 1059.0592942948033,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:05:29.918036",
+          "portfolio_value": 1019.5483543286032,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:10:14.397183",
+          "portfolio_value": 1016.097340435788,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:15:13.455255",
+          "portfolio_value": 1010.0520497691175,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:20:18.914726",
+          "portfolio_value": 1013.1081486711372,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:45:04.748678",
+          "portfolio_value": 1038.7494675421017,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:55:04.889156",
+          "portfolio_value": 1044.450237303191,
+          "cash": 384.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T20:00:05.664497",
+          "portfolio_value": 1045.8447327109532,
+          "cash": 384.4,
+          "positions": 2
+        }
+      ],
+      "strategy_params": {
+        "entry_threshold": 0.29,
+        "stop_loss_pct": 0.05,
+        "take_profit_pct": 0.12,
+        "max_positions": 2,
+        "position_size_pct": 0.38,
+        "max_leverage": 20,
+        "min_hold_minutes": 18,
+        "preferred_assets": [
+          "SOL-USD",
+          "AVAX-USD",
+          "DOGE-USD"
+        ]
+      },
+      "created_at": "2026-02-23T20:01:36.940713",
+      "portfolio_value": 1043.7659791135104,
+      "total_pnl": 43.76597911351041,
+      "total_pnl_pct": 4.376597911351041,
+      "win_rate": 50.0
+    },
+    {
+      "agent_id": "efd29c1d",
+      "name": "Gus_efd29c1d",
+      "color": "\ud83d\udd34",
+      "archetype": "Mean Reverter",
+      "risk_tier": "high",
+      "starting_capital": 1000.0,
+      "cash": 996.7596984961731,
+      "positions": {},
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "ETH-USD",
+          "direction": "LONG",
+          "price": 1856.9248046875,
+          "qty": 0.5843287046765817,
+          "leverage": 6.028080365582563,
+          "margin": 180.0,
+          "time": "2026-02-23T17:35:05.623490",
+          "reason": "Oversold: RSI 15"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "BTC-USD",
+          "direction": "LONG",
+          "price": 64556.41796875,
+          "qty": 0.015433835734949245,
+          "leverage": 6.750360098688438,
+          "margin": 147.6,
+          "time": "2026-02-23T17:40:04.812244",
+          "reason": "Oversold: RSI 13"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "SPY",
+          "direction": "LONG",
+          "price": 680.8499755859375,
+          "qty": 1.3581117246203882,
+          "leverage": 7.639883126369611,
+          "margin": 121.032,
+          "time": "2026-02-23T19:45:04.887393",
+          "reason": "Oversold: RSI 10"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "ETH-USD",
+          "direction": "LONG",
+          "entry_price": 1856.9248046875,
+          "exit_price": 1856.7437744140625,
+          "qty": 0.5843287046765817,
+          "pnl": -0.10578118518498177,
+          "pnl_pct": -0.058767325102767644,
+          "hold_time": "2:26:31.840543",
+          "time": "2026-02-23T20:01:37.464035",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "BTC-USD",
+          "direction": "LONG",
+          "entry_price": 64556.41796875,
+          "exit_price": 64306.68359375,
+          "qty": 0.015433835734949245,
+          "pnl": -3.8543593211202154,
+          "pnl_pct": -2.611354553604482,
+          "hold_time": "2:21:32.651809",
+          "time": "2026-02-23T20:01:37.464050",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "SPY",
+          "direction": "LONG",
+          "entry_price": 680.8499755859375,
+          "exit_price": 681.3800048828125,
+          "qty": 1.3581117246203882,
+          "pnl": 0.719839002478238,
+          "pnl_pct": 0.5947509769963629,
+          "hold_time": "0:16:32.613769",
+          "time": "2026-02-23T20:01:37.501157",
+          "reason": "RACE_END"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T17:01:36.491968",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:05:33.418006",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:10:17.916631",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:15:10.432799",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:20:04.659690",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:25:05.411355",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:30:05.041450",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:35:05.623544",
+          "portfolio_value": 1000.0,
+          "cash": 820.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:40:04.812293",
+          "portfolio_value": 994.6323359760349,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:45:09.649628",
+          "portfolio_value": 995.964250557742,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:50:05.308167",
+          "portfolio_value": 994.2198814788119,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:55:04.982211",
+          "portfolio_value": 993.6268921418992,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T18:00:27.887695",
+          "portfolio_value": 1000.2231483816023,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:05:30.011480",
+          "portfolio_value": 1003.1812041566133,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:10:14.504556",
+          "portfolio_value": 1005.1236425488638,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:15:13.541514",
+          "portfolio_value": 1007.713715662681,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:20:19.004113",
+          "portfolio_value": 1004.3285339903405,
+          "cash": 672.4,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:45:04.887451",
+          "portfolio_value": 992.8334842249382,
+          "cash": 551.3679999999999,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T19:55:04.969851",
+          "portfolio_value": 992.3949316522763,
+          "cash": 551.3679999999999,
+          "positions": 3
+        },
+        {
+          "timestamp": "2026-02-23T20:00:05.773094",
+          "portfolio_value": 994.2301319657423,
+          "cash": 551.3679999999999,
+          "positions": 3
+        }
+      ],
+      "strategy_params": {
+        "entry_threshold": 0.3,
+        "stop_loss_pct": 0.042,
+        "take_profit_pct": 0.124,
+        "max_positions": 5,
+        "position_size_pct": 0.18,
+        "max_leverage": 20,
+        "min_hold_minutes": 28,
+        "preferred_assets": [
+          "ETH-USD",
+          "BTC-USD",
+          "SPY"
+        ]
+      },
+      "created_at": "2026-02-23T20:01:36.940725",
+      "portfolio_value": 996.7596984961731,
+      "total_pnl": -3.240301503826913,
+      "total_pnl_pct": -0.3240301503826913,
+      "win_rate": 16.666666666666664
+    },
+    {
+      "agent_id": "b47e8381",
+      "name": "Clement_b47e8381",
+      "color": "\u2b1b",
+      "archetype": "Pairs Trader",
+      "risk_tier": "high",
+      "starting_capital": 1000.0,
+      "cash": 1000.0,
+      "positions": {},
+      "trades": [],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T17:01:38.338704",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:05:35.618147",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:10:19.965024",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:15:12.639827",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:20:06.498222",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:25:07.259313",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:30:07.242354",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:35:07.464027",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:40:06.846157",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:45:11.580909",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:50:07.591055",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:55:07.015579",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T18:00:29.663640",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:05:32.047553",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:10:16.391521",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:15:15.621710",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:20:20.830351",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:45:06.745637",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:55:06.761507",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T20:00:07.885878",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        }
+      ],
+      "strategy_params": {
+        "entry_threshold": 0.37,
+        "stop_loss_pct": 0.026,
+        "take_profit_pct": 0.107,
+        "max_positions": 4,
+        "position_size_pct": 0.12,
+        "max_leverage": 20,
+        "min_hold_minutes": 27,
+        "preferred_assets": [
+          "BTC-USD/ETH-USD",
+          "SPY/QQQ"
+        ]
+      },
+      "created_at": "2026-02-23T20:01:36.940734",
+      "portfolio_value": 1000.0,
+      "total_pnl": 0.0,
+      "total_pnl_pct": 0.0,
+      "win_rate": 0.0
+    },
+    {
+      "agent_id": "e45944ca",
+      "name": "Yasmin_e45944ca",
+      "color": "\ud83d\udd34",
+      "archetype": "Whale Watcher",
+      "risk_tier": "high",
+      "starting_capital": 1000.0,
+      "cash": 1000.0,
+      "positions": {},
+      "trades": [],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T17:01:38.412597",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:05:35.696167",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:10:20.047494",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:15:12.709322",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:20:06.582204",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:25:07.340904",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:30:07.345564",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:35:07.559131",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:40:06.984886",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:45:11.695501",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:50:07.694942",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T17:55:07.124832",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T18:00:29.765494",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:05:32.156620",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:10:16.521761",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:15:15.748699",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:20:20.951458",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:45:06.871162",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T19:55:06.872045",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T20:00:08.010018",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        }
+      ],
+      "strategy_params": {
+        "entry_threshold": 0.15,
+        "stop_loss_pct": 0.02,
+        "take_profit_pct": 0.142,
+        "max_positions": 4,
+        "position_size_pct": 0.12,
+        "max_leverage": 20,
+        "min_hold_minutes": 29,
+        "preferred_assets": [
+          "BTC-USD",
+          "ETH-USD",
+          "SOL-USD"
+        ]
+      },
+      "created_at": "2026-02-23T20:01:36.940740",
+      "portfolio_value": 1000.0,
+      "total_pnl": 0.0,
+      "total_pnl_pct": 0.0,
+      "win_rate": 0.0
+    },
+    {
+      "agent_id": "3ed25839",
+      "name": "Danny_3ed25839",
+      "color": "\ud83d\udd35",
+      "archetype": "YOLO",
+      "risk_tier": "high",
+      "starting_capital": 1000.0,
+      "cash": 1127.0179105370137,
+      "positions": {},
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "BTC-USD",
+          "direction": "SHORT",
+          "price": 65366.02734375,
+          "qty": 0.11990244954672524,
+          "leverage": 7.8375467956538465,
+          "margin": 1000.0,
+          "time": "2026-02-23T17:01:38.478263",
+          "reason": "YOLO: Big move -3.4%"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "BTC-USD",
+          "direction": "SHORT",
+          "entry_price": 65366.02734375,
+          "exit_price": 64306.68359375,
+          "qty": 0.11990244954672524,
+          "pnl": 127.01791053701372,
+          "pnl_pct": 12.701791053701372,
+          "hold_time": "2:59:59.024078",
+          "time": "2026-02-23T20:01:37.502341",
+          "reason": "RACE_END"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T17:01:38.478308",
+          "portfolio_value": 1000.0,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:05:35.740830",
+          "portfolio_value": 995.6675872722375,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:10:20.092405",
+          "portfolio_value": 995.8263643440981,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:15:12.751131",
+          "portfolio_value": 1001.8936156387399,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:20:06.645108",
+          "portfolio_value": 1030.056640213914,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:25:07.379065",
+          "portfolio_value": 1066.1603918578976,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:30:07.391790",
+          "portfolio_value": 1070.4736014589748,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:35:07.603404",
+          "portfolio_value": 1094.930422583902,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:40:06.985385",
+          "portfolio_value": 1097.0741472384932,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:45:11.696039",
+          "portfolio_value": 1089.224283744731,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:50:07.695484",
+          "portfolio_value": 1107.373111938036,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:55:07.125264",
+          "portfolio_value": 1109.8863796890819,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T18:00:29.765937",
+          "portfolio_value": 1093.187153376039,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T19:05:32.157093",
+          "portfolio_value": 1082.6947523028134,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T19:10:16.522219",
+          "portfolio_value": 1074.0074451379985,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T19:15:15.749139",
+          "portfolio_value": 1067.5336496003624,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T19:20:20.951886",
+          "portfolio_value": 1083.1153476141142,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T19:45:06.871692",
+          "portfolio_value": 1128.3832060074383,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T19:55:06.872449",
+          "portfolio_value": 1140.6835112027356,
+          "cash": 0.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T20:00:08.010595",
+          "portfolio_value": 1134.9909550629275,
+          "cash": 0.0,
+          "positions": 1
+        }
+      ],
+      "strategy_params": {
+        "entry_threshold": 0.27,
+        "stop_loss_pct": 0.034,
+        "take_profit_pct": 0.139,
+        "max_positions": 1,
+        "position_size_pct": 1.0,
+        "max_leverage": 15,
+        "min_hold_minutes": 55,
+        "preferred_assets": [
+          "BTC-USD",
+          "ETH-USD",
+          "SOL-USD"
+        ]
+      },
+      "created_at": "2026-02-23T20:01:36.940746",
+      "portfolio_value": 1127.0179105370137,
+      "total_pnl": 127.01791053701368,
+      "total_pnl_pct": 12.701791053701367,
+      "win_rate": 50.0
+    },
+    {
+      "agent_id": "003ee655",
+      "name": "Robert_003ee655",
+      "color": "\ud83d\udfe1",
+      "archetype": "Momentum Surfer",
+      "risk_tier": "high",
+      "starting_capital": 1000.0,
+      "cash": 1029.4660514969676,
+      "positions": {},
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "SOL-USD",
+          "direction": "SHORT",
+          "price": 79.03620910644531,
+          "qty": 32.89843117007645,
+          "leverage": 16.251045532701006,
+          "margin": 160.0,
+          "time": "2026-02-23T17:01:38.547624",
+          "reason": "Momentum: -4.6% and trending down"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "AMD",
+          "direction": "SHORT",
+          "price": 195.8000030517578,
+          "qty": 3.3314835716180284,
+          "leverage": 4.853456052750677,
+          "margin": 134.4,
+          "time": "2026-02-23T17:05:35.879840",
+          "reason": "Momentum: -1.2% and trending down"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "SOL-USD",
+          "direction": "SHORT",
+          "entry_price": 79.03620910644531,
+          "exit_price": 78.22045135498047,
+          "qty": 32.89843117007645,
+          "pnl": 26.837150238022492,
+          "pnl_pct": 16.773218898764057,
+          "hold_time": "2:59:58.955092",
+          "time": "2026-02-23T20:01:37.502716",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "AMD",
+          "direction": "SHORT",
+          "entry_price": 195.8000030517578,
+          "exit_price": 195.01089477539062,
+          "qty": 3.3314835716180284,
+          "pnl": 2.628901258945104,
+          "pnl_pct": 1.9560277224293927,
+          "hold_time": "2:56:01.657417",
+          "time": "2026-02-23T20:01:37.537259",
+          "reason": "RACE_END"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T17:01:38.547669",
+          "portfolio_value": 1000.0,
+          "cash": 840.0,
+          "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T17:05:35.879887",
+          "portfolio_value": 1000.7956545014125,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:10:20.209143",
+          "portfolio_value": 1000.8632904336665,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:15:12.858250",
+          "portfolio_value": 1000.3155205118114,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:20:06.721169",
+          "portfolio_value": 1008.5637538666216,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:25:07.435074",
+          "portfolio_value": 1008.1785349213899,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:30:07.468259",
+          "portfolio_value": 1010.4372147727047,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:35:07.669516",
+          "portfolio_value": 1027.8831377507156,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:40:07.074671",
+          "portfolio_value": 1030.4390575108314,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:45:11.777792",
+          "portfolio_value": 1034.6542167830958,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:50:07.768157",
+          "portfolio_value": 1041.354238217985,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T17:55:07.205339",
+          "portfolio_value": 1043.0218634757007,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T18:00:29.847444",
+          "portfolio_value": 1042.3780394569167,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:05:32.244051",
+          "portfolio_value": 1014.4855309746594,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:10:16.607504",
+          "portfolio_value": 1012.7324090691507,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:15:15.842733",
+          "portfolio_value": 1007.6240012210512,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:20:21.032469",
+          "portfolio_value": 1009.4495430131057,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:45:06.953358",
+          "portfolio_value": 1024.5384908272792,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T19:55:06.943346",
+          "portfolio_value": 1031.1127762797237,
+          "cash": 705.6,
+          "positions": 2
+        },
+        {
+          "timestamp": "2026-02-23T20:00:08.088880",
+          "portfolio_value": 1031.8049443873174,
+          "cash": 705.6,
+          "positions": 2
+        }
+      ],
+      "strategy_params": {
+        "entry_threshold": 0.35,
+        "stop_loss_pct": 0.022,
+        "take_profit_pct": 0.08,
+        "max_positions": 5,
+        "position_size_pct": 0.16,
+        "max_leverage": 20,
+        "min_hold_minutes": 21,
+        "preferred_assets": [
+          "SOL-USD",
+          "NVDA",
+          "AMD"
+        ]
+      },
+      "created_at": "2026-02-23T20:01:36.940753",
+      "portfolio_value": 1029.4660514969676,
+      "total_pnl": 29.466051496967566,
+      "total_pnl_pct": 2.9466051496967562,
+      "win_rate": 50.0
+    }
+  ]
+}

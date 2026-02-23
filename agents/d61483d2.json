@@ -1,0 +1,123 @@
+{
+  "agent_id": "d61483d2",
+  "name": "Eric_d61483d2",
+  "color": "\ud83d\udfe3",
+  "archetype": "Breakout Hunter",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 592.7040000000001,
+  "positions": {
+    "SOL-USD": {
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "qty": 16.344267787301824,
+      "entry_price": 78.3149185180664,
+      "entry_time": "2026-02-23T20:14:01.176402",
+      "leverage": 8.0,
+      "margin": 160.0,
+      "notional_value": 1280.0,
+      "unrealized_pnl": 3.2255338657694725,
+      "reason": "Breakdown: Near low $77.29",
+      "current_price": 78.11756896972656
+    },
+    "AVAX-USD": {
+      "symbol": "AVAX-USD",
+      "direction": "SHORT",
+      "qty": 128.89683592336084,
+      "entry_price": 8.341554641723633,
+      "entry_time": "2026-02-23T20:15:10.663008",
+      "leverage": 8.0,
+      "margin": 134.4,
+      "notional_value": 1075.2,
+      "unrealized_pnl": 5.006882690424357,
+      "reason": "Breakdown: Near low $8.34",
+      "current_price": 8.30271053314209
+    },
+    "DOGE-USD": {
+      "symbol": "DOGE-USD",
+      "direction": "SHORT",
+      "qty": 9728.789660254357,
+      "entry_price": 0.09283456951379776,
+      "entry_time": "2026-02-23T20:30:07.099726",
+      "leverage": 8.0,
+      "margin": 112.896,
+      "notional_value": 903.168,
+      "unrealized_pnl": 0.0,
+      "reason": "Breakdown: Near low $0.09"
+    }
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "price": 78.3149185180664,
+      "qty": 16.344267787301824,
+      "leverage": 8.0,
+      "margin": 160.0,
+      "time": "2026-02-23T20:14:01.176412",
+      "reason": "Breakdown: Near low $77.29"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "AVAX-USD",
+      "direction": "SHORT",
+      "price": 8.341554641723633,
+      "qty": 128.89683592336084,
+      "leverage": 8.0,
+      "margin": 134.4,
+      "time": "2026-02-23T20:15:10.663018",
+      "reason": "Breakdown: Near low $8.34"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "DOGE-USD",
+      "direction": "SHORT",
+      "price": 0.09283456951379776,
+      "qty": 9728.789660254357,
+      "leverage": 8.0,
+      "margin": 112.896,
+      "time": "2026-02-23T20:30:07.099735",
+      "reason": "Breakdown: Near low $0.09"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T20:14:01.176481",
+      "portfolio_value": 1000.0,
+      "cash": 840.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T20:15:10.663077",
+      "portfolio_value": 1000.1616071399867,
+      "cash": 705.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T20:30:07.099799",
+      "portfolio_value": 1008.2324165561938,
+      "cash": 592.7040000000001,
+      "positions": 3
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.26,
+    "stop_loss_pct": 0.05,
+    "take_profit_pct": 0.12,
+    "max_positions": 5,
+    "position_size_pct": 0.16,
+    "max_leverage": 20,
+    "min_hold_minutes": 14,
+    "preferred_assets": [
+      "SOL-USD",
+      "AVAX-USD",
+      "DOGE-USD"
+    ]
+  },
+  "created_at": "2026-02-23T20:30:06.556725",
+  "portfolio_value": 1008.2324165561938,
+  "total_pnl": 8.232416556193812,
+  "total_pnl_pct": 0.8232416556193811,
+  "win_rate": 0.0
+}

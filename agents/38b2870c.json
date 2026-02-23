@@ -1,0 +1,49 @@
+{
+  "agent_id": "38b2870c",
+  "name": "Rishi_38b2870c",
+  "color": "\ud83d\udfe0",
+  "archetype": "Scalper",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 1000.0,
+  "positions": {},
+  "trades": [],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T20:14:01.453467",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T20:15:10.969284",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T20:30:07.427594",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.23,
+    "stop_loss_pct": 0.01,
+    "take_profit_pct": 0.02,
+    "max_positions": 3,
+    "position_size_pct": 0.12,
+    "max_leverage": 20,
+    "min_hold_minutes": 2,
+    "preferred_assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  "created_at": "2026-02-23T20:30:06.556779",
+  "portfolio_value": 1000.0,
+  "total_pnl": 0.0,
+  "total_pnl_pct": 0.0,
+  "win_rate": 0.0
+}

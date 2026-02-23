@@ -1,0 +1,76 @@
+{
+  "agent_id": "b69c3e0f",
+  "name": "Robert_b69c3e0f",
+  "color": "\ud83d\udfe2",
+  "archetype": "Momentum Surfer",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 590.0,
+  "positions": {
+    "SOL-USD": {
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "qty": 99.27992643636068,
+      "entry_price": 78.3149185180664,
+      "entry_time": "2026-02-23T20:14:01.479640",
+      "leverage": 18.963656949617594,
+      "margin": 410.0,
+      "notional_value": 7775.099349343213,
+      "unrealized_pnl": 19.592848641428695,
+      "reason": "Momentum: -5.4% and trending down",
+      "current_price": 78.11756896972656
+    }
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "price": 78.3149185180664,
+      "qty": 99.27992643636068,
+      "leverage": 18.963656949617594,
+      "margin": 410.0,
+      "time": "2026-02-23T20:14:01.479648",
+      "reason": "Momentum: -5.4% and trending down"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T20:14:01.479697",
+      "portfolio_value": 1000.0,
+      "cash": 590.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T20:15:10.969612",
+      "portfolio_value": 1000.9816496632501,
+      "cash": 590.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T20:30:07.428052",
+      "portfolio_value": 1019.5928486414286,
+      "cash": 590.0,
+      "positions": 1
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.31,
+    "stop_loss_pct": 0.026,
+    "take_profit_pct": 0.065,
+    "max_positions": 1,
+    "position_size_pct": 0.41,
+    "max_leverage": 20,
+    "min_hold_minutes": 46,
+    "preferred_assets": [
+      "SOL-USD",
+      "NVDA",
+      "AMD"
+    ]
+  },
+  "created_at": "2026-02-23T20:30:06.556786",
+  "portfolio_value": 1019.5928486414286,
+  "total_pnl": 19.592848641428645,
+  "total_pnl_pct": 1.9592848641428646,
+  "win_rate": 0.0
+}

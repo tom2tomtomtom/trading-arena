@@ -29,6 +29,7 @@ from survival_mode import (
 )
 from career_progression import record_race_result, get_career_leaderboard, get_career_summary
 from desk_management import get_desk_leaderboard, desk_manager
+from evolution_engine import EvolutionEngine, StrategyMutator
 
 
 class Race:
@@ -168,6 +169,100 @@ class Arena:
         self._save_race(race)
         
         return race
+    
+    def create_evolved_race(
+        self,
+        parent_race_id: str,
+        num_bots: int = BOTS_PER_RACE,
+        risk_tier: str = "high",
+        duration_hours: float = RACE_DURATION_HOURS,
+        num_mutations_per_survivor: int = 2,
+        include_fresh_bots: bool = True,
+    ) -> Race:
+        """
+        Create a new race with evolved agents from a previous race.
+        
+        Args:
+            parent_race_id: The race to evolve from
+            num_bots: Total bots in new race
+            risk_tier: Risk level for the race
+            duration_hours: How long the race runs
+            num_mutations_per_survivor: How many variants of each survivor
+            include_fresh_bots: Whether to include new random strategies
+        """
+        print("\n" + "="*60)
+        print("🧬 CREATING EVOLVED RACE")
+        print("="*60)
+        print(f"Parent race: {parent_race_id}")
+        print(f"Mutations per survivor: {num_mutations_per_survivor}")
+        
+        # Generate race ID
+        race_id = datetime.utcnow().strftime("race_%Y%m%d_%H%M%S")
+        
+        # Create evolved cohort
+        engine = EvolutionEngine(str(self.project_dir))
+        evolved_agents_data = engine.create_evolved_cohort(
+            parent_race_id=parent_race_id,
+            num_bots=num_bots,
+            num_mutations_per_survivor=num_mutations_per_survivor,
+            include_new_bots=include_fresh_bots,
+        )
+        
+        # Convert dicts back to TradingAgent objects
+        agents = []
+        for agent_data in evolved_agents_data:
+            # Create agent from mutated data
+            agent = self._agent_from_dict(agent_data, risk_tier)
+            agents.append(agent)
+        
+        # Fill remaining slots with fresh bots if needed
+        remaining = num_bots - len(agents)
+        if remaining > 0 and include_fresh_bots:
+            print(f"\n🆕 Adding {remaining} fresh bots for diversity")
+            fresh_agents = self.factory.create_race_cohort(
+                num_bots=remaining,
+                risk_tier=risk_tier,
+                starting_capital=STARTING_CAPITAL,
+            )
+            agents.extend(fresh_agents)
+        
+        print(f"\n✅ Total evolved cohort: {len(agents)} bots")
+        
+        race = Race(
+            race_id=race_id,
+            agents=agents,
+            duration_hours=duration_hours,
+            risk_tier=risk_tier,
+        )
+        
+        self.current_race = race
+        self._save_race(race)
+        
+        return race
+    
+    def _agent_from_dict(self, data: Dict, risk_tier: str) -> TradingAgent:
+        """Reconstruct a TradingAgent from dict (including mutated params)."""
+        agent = TradingAgent(
+            agent_id=data.get('agent_id', f"mut_{datetime.utcnow().strftime('%H%M%S')}"),
+            name=data.get('name', 'Unknown'),
+            color=data.get('color', '⚪'),
+            archetype={
+                'name': data.get('archetype', 'Unknown'),
+                'description': data.get('archetype_description', 'Evolved strategy'),
+            },
+            risk_tier=risk_tier,
+            starting_capital=data.get('starting_capital', STARTING_CAPITAL),
+        )
+        
+        # Apply mutated strategy params if present
+        if 'strategy_params' in data:
+            agent.strategy_params = data['strategy_params']
+        
+        # Track evolution lineage
+        agent.parent_agent = data.get('parent', 'unknown')
+        agent.mutation_type = data.get('mutation_type', 'unknown')
+        
+        return agent
     
     def start_race(self) -> Optional[Race]:
         """Start the current race."""
@@ -504,8 +599,9 @@ class Arena:
 
 def main():
     parser = argparse.ArgumentParser(description="Trading Arena - AI Bot Competition")
-    parser.add_argument("action", choices=["create", "start", "run", "status", "end", "cycle"],
+    parser.add_argument("action", choices=["create", "start", "run", "status", "end", "cycle", "evolve"],
                         help="Action to perform")
+    parser.add_argument("--parent-race", type=str, help="Parent race ID for evolution")
     parser.add_argument("--bots", type=int, default=BOTS_PER_RACE, help="Number of bots")
     parser.add_argument("--risk", choices=["moderate", "high", "yolo"], default="moderate",
                         help="Risk tier")
@@ -609,6 +705,31 @@ def main():
         results = arena.end_race()
         if args.json:
             print(json.dumps(results, indent=2, default=str))
+    
+    elif args.action == "evolve":
+        """Create an evolved race from a previous race's survivors."""
+        if not args.parent_race:
+            print("❌ Error: --parent-race required for evolution")
+            print("   Usage: arena.py evolve --parent-race race_20260223_170125")
+            return
+        
+        race = arena.create_evolved_race(
+            parent_race_id=args.parent_race,
+            num_bots=args.bots,
+            risk_tier=args.risk,
+            duration_hours=args.duration,
+            num_mutations_per_survivor=2,
+            include_fresh_bots=True,
+        )
+        
+        if args.json:
+            print(json.dumps(race.to_dict(), indent=2, default=str))
+        else:
+            print(f"\n✅ Evolved race created: {race.race_id}")
+            print(f"   Parent: {args.parent_race}")
+            print(f"   Bots: {len(race.agents)}")
+            print(f"   Risk: {race.risk_tier}")
+            print("\n   Run 'arena.py start' to begin the evolved race!")
 
 
 if __name__ == "__main__":

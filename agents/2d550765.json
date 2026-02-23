@@ -1,0 +1,201 @@
+{
+  "agent_id": "2d550765",
+  "name": "Eric_2d550765",
+  "color": "\u2b1b",
+  "archetype": "Breakout Hunter",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 1043.7659791135104,
+  "positions": {},
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "price": 78.7485580444336,
+      "qty": 38.603881461355655,
+      "leverage": 8.0,
+      "margin": 380.0,
+      "time": "2026-02-23T17:20:04.550729",
+      "reason": "Breakdown: Near low $77.29"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "AVAX-USD",
+      "direction": "SHORT",
+      "price": 8.488672256469727,
+      "qty": 222.03707989355823,
+      "leverage": 8.0,
+      "margin": 235.6,
+      "time": "2026-02-23T17:25:05.314528",
+      "reason": "Breakdown: Near low $8.35"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "entry_price": 78.7485580444336,
+      "exit_price": 78.22045135498047,
+      "qty": 38.603881461355655,
+      "pnl": 20.386968038597402,
+      "pnl_pct": 5.364991589104579,
+      "hold_time": "2:41:32.826980",
+      "time": "2026-02-23T20:01:37.377709",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "AVAX-USD",
+      "direction": "SHORT",
+      "entry_price": 8.488672256469727,
+      "exit_price": 8.383378982543945,
+      "qty": 222.03707989355823,
+      "pnl": 23.379011074913002,
+      "pnl_pct": 9.923179573392616,
+      "hold_time": "2:36:32.107157",
+      "time": "2026-02-23T20:01:37.421684",
+      "reason": "RACE_END"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T17:01:36.388041",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:05:33.314115",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:10:17.805839",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:15:10.331831",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T17:20:04.550785",
+      "portfolio_value": 1000.0,
+      "cash": 620.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T17:25:05.314579",
+      "portfolio_value": 1001.2484882622886,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:30:04.920770",
+      "portfolio_value": 1009.7605907019149,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:35:05.529840",
+      "portfolio_value": 1028.5041471867753,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:40:04.694713",
+      "portfolio_value": 1040.0688253973594,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:45:09.512442",
+      "portfolio_value": 1044.5831475468096,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:50:05.187827",
+      "portfolio_value": 1053.4870365737768,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T17:55:04.856665",
+      "portfolio_value": 1061.5944056588185,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T18:00:27.763654",
+      "portfolio_value": 1059.0592942948033,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:05:29.918036",
+      "portfolio_value": 1019.5483543286032,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:10:14.397183",
+      "portfolio_value": 1016.097340435788,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:15:13.455255",
+      "portfolio_value": 1010.0520497691175,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:20:18.914726",
+      "portfolio_value": 1013.1081486711372,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:45:04.748678",
+      "portfolio_value": 1038.7494675421017,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T19:55:04.889156",
+      "portfolio_value": 1044.450237303191,
+      "cash": 384.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T20:00:05.664497",
+      "portfolio_value": 1045.8447327109532,
+      "cash": 384.4,
+      "positions": 2
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.29,
+    "stop_loss_pct": 0.05,
+    "take_profit_pct": 0.12,
+    "max_positions": 2,
+    "position_size_pct": 0.38,
+    "max_leverage": 20,
+    "min_hold_minutes": 18,
+    "preferred_assets": [
+      "SOL-USD",
+      "AVAX-USD",
+      "DOGE-USD"
+    ]
+  },
+  "created_at": "2026-02-23T20:01:36.940713",
+  "portfolio_value": 1043.7659791135104,
+  "total_pnl": 43.76597911351041,
+  "total_pnl_pct": 4.376597911351041,
+  "win_rate": 50.0
+}
