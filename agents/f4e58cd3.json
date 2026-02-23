@@ -5,22 +5,8 @@
   "archetype": "Momentum Surfer",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 830.0,
-  "positions": {
-    "NVDA": {
-      "symbol": "NVDA",
-      "direction": "LONG",
-      "qty": 6.19296621100634,
-      "entry_price": 189.8300018310547,
-      "entry_time": "2026-02-23T13:10:05.526650",
-      "leverage": 6.915357571617607,
-      "margin": 170.0,
-      "notional_value": 1175.6107871749932,
-      "unrealized_pnl": 0.0,
-      "reason": "Momentum: +1.8% and trending up",
-      "current_price": 189.8300018310547
-    }
-  },
+  "cash": 1019.2379374515132,
+  "positions": {},
   "trades": [
     {
       "type": "ENTRY",
@@ -32,6 +18,67 @@
       "margin": 170.0,
       "time": "2026-02-23T13:10:05.526662",
       "reason": "Momentum: +1.8% and trending up"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "price": 80.57372283935547,
+      "qty": 17.027369897386397,
+      "leverage": 9.723306752623643,
+      "margin": 141.10000000000002,
+      "time": "2026-02-23T14:05:05.940386",
+      "reason": "Momentum: -2.6% and trending down"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "AMD",
+      "direction": "SHORT",
+      "price": 195.2100067138672,
+      "qty": 3.5578489022735647,
+      "leverage": 5.930406599606769,
+      "margin": 117.113,
+      "time": "2026-02-23T16:04:10.354042",
+      "reason": "Momentum: -1.5% and trending down"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "NVDA",
+      "direction": "LONG",
+      "entry_price": 189.8300018310547,
+      "exit_price": 189.82240295410156,
+      "qty": 6.19296621100634,
+      "pnl": -0.04705958821229793,
+      "pnl_pct": -0.02768211071311643,
+      "hold_time": "2:54:51.209538",
+      "time": "2026-02-23T16:04:56.736195",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "entry_price": 80.57372283935547,
+      "exit_price": 79.45367431640625,
+      "qty": 17.027369897386397,
+      "pnl": 19.071480503277623,
+      "pnl_pct": 13.516286678439135,
+      "hold_time": "1:59:50.795826",
+      "time": "2026-02-23T16:04:56.736208",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "AMD",
+      "direction": "SHORT",
+      "entry_price": 195.2100067138672,
+      "exit_price": 195.14999389648438,
+      "qty": 3.5578489022735647,
+      "pnl": 0.21351653644778334,
+      "pnl_pct": 0.18231668256110195,
+      "hold_time": "0:00:46.421297",
+      "time": "2026-02-23T16:04:56.775335",
+      "reason": "RACE_END"
     }
   ],
   "pnl_history": [
@@ -94,6 +141,156 @@
       "portfolio_value": 1000.0,
       "cash": 830.0,
       "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T13:51:58.115098",
+      "portfolio_value": 1000.0,
+      "cash": 830.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T13:55:06.879007",
+      "portfolio_value": 1000.0,
+      "cash": 830.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T14:02:32.513992",
+      "portfolio_value": 1000.0,
+      "cash": 830.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T14:05:05.940454",
+      "portfolio_value": 1000.0,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T14:10:06.753905",
+      "portfolio_value": 997.4383338393665,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T14:15:05.038448",
+      "portfolio_value": 997.4832821882471,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T14:20:26.064476",
+      "portfolio_value": 998.7241683978101,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T14:26:14.995613",
+      "portfolio_value": 1001.5421440738821,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T14:50:16.862781",
+      "portfolio_value": 1025.1922449935757,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T14:50:24.165306",
+      "portfolio_value": 1024.944473426723,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T14:55:17.994110",
+      "portfolio_value": 1025.3427280188964,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:00:23.797832",
+      "portfolio_value": 1026.3798489511544,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:05:11.504615",
+      "portfolio_value": 1022.8106566170486,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:10:08.211453",
+      "portfolio_value": 1023.2379707806863,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:15:08.360524",
+      "portfolio_value": 1021.4625172129556,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:20:06.993457",
+      "portfolio_value": 1020.0074296026188,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:25:05.578458",
+      "portfolio_value": 1023.4641291780553,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:30:07.273358",
+      "portfolio_value": 1022.0066329911888,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:35:08.103929",
+      "portfolio_value": 1022.6038861625425,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:35:16.669908",
+      "portfolio_value": 1022.4800948762812,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:40:06.067458",
+      "portfolio_value": 1024.7077239978798,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:45:07.452458",
+      "portfolio_value": 1022.9916079340272,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:50:08.867241",
+      "portfolio_value": 1023.1115671725405,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T15:50:17.170531",
+      "portfolio_value": 1023.3710563878637,
+      "cash": 688.9,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T16:04:10.354091",
+      "portfolio_value": 1019.5056004796778,
+      "cash": 571.787,
+      "positions": 3
     }
   ],
   "strategy_params": {
@@ -110,9 +307,9 @@
       "AMD"
     ]
   },
-  "created_at": "2026-02-23T13:45:05.497095",
-  "portfolio_value": 1000.0,
-  "total_pnl": 0.0,
-  "total_pnl_pct": 0.0,
-  "win_rate": 0.0
+  "created_at": "2026-02-23T16:04:56.195469",
+  "portfolio_value": 1019.2379374515132,
+  "total_pnl": 19.237937451513176,
+  "total_pnl_pct": 1.9237937451513174,
+  "win_rate": 33.33333333333333
 }

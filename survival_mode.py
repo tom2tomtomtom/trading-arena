@@ -21,8 +21,21 @@ def calculate_standings(agents: List[Dict]) -> List[Tuple[int, str, float, float
 
 def get_elimination_zone(standings: List, total_bots: int = 7) -> List[str]:
     """Get agent IDs in bottom 40% (elimination zone)."""
+    if not standings:
+        return []
+    
     elimination_count = max(1, int(total_bots * 0.4))
-    return [s[0] for s in standings[-elimination_count:]]
+    # Ensure we don't try to get more than available
+    elimination_count = min(elimination_count, len(standings))
+    
+    # Handle both list of tuples and list of dicts
+    result = []
+    for s in standings[-elimination_count:]:
+        if isinstance(s, (list, tuple)) and len(s) > 0:
+            result.append(s[0])
+        elif isinstance(s, dict):
+            result.append(s.get('agent_id', s.get('id', 'unknown')))
+    return result
 
 
 def get_survival_quote(character: str, rank: int, total: int, in_danger: bool) -> str:
@@ -260,19 +273,40 @@ def get_elimination_warning(minutes_remaining: int, standings: List) -> str:
     """Get dramatic elimination warnings as race nears end."""
     
     if minutes_remaining <= 10:
+        if not standings:
+            return f"🔥 FINAL {minutes_remaining} MINUTES! 🔥"
+        
         danger_zone = get_elimination_zone(standings)
-        danger_names = [s[1] for s in standings if s[0] in danger_zone]
+        
+        # Extract names safely from standings
+        danger_names = []
+        for s in standings:
+            agent_id = None
+            agent_name = None
+            
+            if isinstance(s, (list, tuple)) and len(s) >= 2:
+                agent_id = s[0]
+                agent_name = s[1]
+            elif isinstance(s, dict):
+                agent_id = s.get('agent_id', s.get('id'))
+                agent_name = s.get('name', 'Unknown')
+            
+            if agent_id and agent_id in danger_zone and agent_name:
+                danger_names.append(agent_name.split('_')[0] if '_' in str(agent_name) else agent_name)
         
         warnings = [
-            f"🔥 FINAL {minutes_remaining} MINUTES! 🔥",
-            f"⚠️ At risk: {', '.join(danger_names[:2])}...",
+            f"🔥 FINAL {int(minutes_remaining)} MINUTES! 🔥",
+        ]
+        if danger_names:
+            warnings.append(f"⚠️ At risk: {', '.join(danger_names[:3])}...")
+        warnings.extend([
             "💀 ELIMINATION IMMINENT",
             "🚨 THIS IS NOT A DRILL 🚨"
-        ]
+        ])
         return '\n'.join(warnings)
     
     elif minutes_remaining <= 30:
-        return f"⏰ {minutes_remaining} minutes left. The bottom 40% are sweating..."
+        return f"⏰ {int(minutes_remaining)} minutes left. The bottom 40% are sweating..."
     
     elif minutes_remaining <= 60:
         return f"⚡ Final hour! Survival mode activated for the struggling..."

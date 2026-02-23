@@ -5,9 +5,34 @@
   "archetype": "YOLO",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 1000.0,
+  "cash": 1063.3304242383867,
   "positions": {},
-  "trades": [],
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "price": 80.15259552001953,
+      "qty": 90.61167970149037,
+      "leverage": 7.262761312503122,
+      "margin": 1000.0,
+      "time": "2026-02-23T14:50:16.691266",
+      "reason": "YOLO: Big move -3.1%"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "entry_price": 80.15259552001953,
+      "exit_price": 79.45367431640625,
+      "qty": 90.61167970149037,
+      "pnl": 63.330424238386776,
+      "pnl_pct": 6.333042423838678,
+      "hold_time": "1:14:40.043627",
+      "time": "2026-02-23T16:04:56.734893",
+      "reason": "RACE_END"
+    }
+  ],
   "pnl_history": [
     {
       "timestamp": "2026-02-23T13:10:05.275062",
@@ -68,6 +93,156 @@
       "portfolio_value": 1000.0,
       "cash": 1000.0,
       "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:51:57.880487",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:55:06.641910",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:02:32.250639",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:05:05.694490",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:10:06.471080",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:15:04.767776",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:20:25.767635",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:26:14.696725",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:50:16.691323",
+      "portfolio_value": 1000.0,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T14:50:23.996658",
+      "portfolio_value": 1000.0,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T14:55:17.825150",
+      "portfolio_value": 996.8462334991592,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:00:23.641678",
+      "portfolio_value": 997.422096606393,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:05:11.331775",
+      "portfolio_value": 998.6961850897445,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:10:08.045397",
+      "portfolio_value": 1019.5904066420046,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:15:08.201801",
+      "portfolio_value": 1022.9951194908956,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:20:06.828943",
+      "portfolio_value": 1020.297619077419,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:25:05.411393",
+      "portfolio_value": 1024.715795690061,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:30:07.127671",
+      "portfolio_value": 1026.546390537546,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:35:07.943365",
+      "portfolio_value": 1045.876863772204,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:35:16.491060",
+      "portfolio_value": 1045.876863772204,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:40:05.900103",
+      "portfolio_value": 1046.1969413456122,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:45:07.296525",
+      "portfolio_value": 1039.0418595210394,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:50:08.719059",
+      "portfolio_value": 1033.3164114368738,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:50:17.034483",
+      "portfolio_value": 1033.3164114368738,
+      "cash": 0.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T16:04:10.146667",
+      "portfolio_value": 1063.3304242383867,
+      "cash": 0.0,
+      "positions": 1
     }
   ],
   "strategy_params": {
@@ -76,7 +251,7 @@
     "take_profit_pct": 0.108,
     "max_positions": 1,
     "position_size_pct": 1.0,
-    "max_leverage": 20,
+    "max_leverage": 15,
     "min_hold_minutes": 52,
     "preferred_assets": [
       "BTC-USD",
@@ -84,9 +259,9 @@
       "SOL-USD"
     ]
   },
-  "created_at": "2026-02-23T13:45:05.497081",
-  "portfolio_value": 1000.0,
-  "total_pnl": 0.0,
-  "total_pnl_pct": 0.0,
-  "win_rate": 0.0
+  "created_at": "2026-02-23T16:04:56.195454",
+  "portfolio_value": 1063.3304242383867,
+  "total_pnl": 63.33042423838674,
+  "total_pnl_pct": 6.333042423838673,
+  "win_rate": 50.0
 }

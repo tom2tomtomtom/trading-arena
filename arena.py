@@ -434,7 +434,8 @@ class Arena:
                 'Venetia': "Sentiment turned against you. Including ours.",
                 'Clement': "Pairs diverged, and so did your career here."
             }
-            print(f"\n💀 {e}")
+            print(f"\n💀 #{e['rank']} {e['color']} {e['name']} ({e['archetype']})")
+            print(f"   Final P&L: ${e['pnl']:.2f} ({e['pnl_pct']:+.2f}%)")
             print(f"   \"{dramatic_lines.get(char_name, 'Your strategy failed.')}\"")
         
         print(f"\n🎉 {', '.join(results['survivors'])} - You've earned your place in the next race!")

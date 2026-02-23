@@ -5,9 +5,34 @@
   "archetype": "Mean Reverter",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 1000.0,
+  "cash": 985.3393953333461,
   "positions": {},
-  "trades": [],
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "SPY",
+      "direction": "LONG",
+      "price": 683.9500122070312,
+      "qty": 5.331128969692334,
+      "leverage": 7.926577660648543,
+      "margin": 460.0,
+      "time": "2026-02-23T15:35:07.816202",
+      "reason": "Oversold: RSI 9"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SPY",
+      "direction": "LONG",
+      "entry_price": 683.9500122070312,
+      "exit_price": 681.2000122070312,
+      "qty": 5.331128969692334,
+      "pnl": -14.660604666653919,
+      "pnl_pct": -3.1870879710117213,
+      "hold_time": "0:29:48.789009",
+      "time": "2026-02-23T16:04:56.605211",
+      "reason": "RACE_END"
+    }
+  ],
   "pnl_history": [
     {
       "timestamp": "2026-02-23T13:10:05.150965",
@@ -68,6 +93,156 @@
       "portfolio_value": 1000.0,
       "cash": 1000.0,
       "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:51:57.708640",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:55:06.443738",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:02:32.054519",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:05:05.534050",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:10:06.292393",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:15:04.578590",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:20:25.578843",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:26:14.492273",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:50:16.431915",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:50:23.866990",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T14:55:17.696087",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:00:23.525397",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:05:11.201061",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:10:07.913081",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:15:08.078822",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:20:06.709972",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:25:05.274906",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:30:07.006788",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T15:35:07.816264",
+      "portfolio_value": 1000.0,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:35:16.342162",
+      "portfolio_value": 1000.0,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:40:05.779350",
+      "portfolio_value": 1001.0662908711964,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:45:07.172830",
+      "portfolio_value": 998.2406363318404,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:50:08.582833",
+      "portfolio_value": 998.7205811090802,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T15:50:16.920972",
+      "portfolio_value": 998.9870724803069,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T16:04:10.006039",
+      "portfolio_value": 986.2189144742811,
+      "cash": 540.0,
+      "positions": 1
     }
   ],
   "strategy_params": {
@@ -84,9 +259,9 @@
       "SPY"
     ]
   },
-  "created_at": "2026-02-23T13:45:05.497061",
-  "portfolio_value": 1000.0,
-  "total_pnl": 0.0,
-  "total_pnl_pct": 0.0,
+  "created_at": "2026-02-23T16:04:56.195434",
+  "portfolio_value": 985.3393953333461,
+  "total_pnl": -14.660604666653853,
+  "total_pnl_pct": -1.4660604666653854,
   "win_rate": 0.0
 }
