@@ -752,10 +752,27 @@
         // Fetch data
         async function fetchData() {
             try {
-                // Try to fetch from current race data (Race 2)
-                const response = await fetch('../races/race_20260223_130449/race_state.json');
+                // Try to fetch from current race data (Race 2) - main race file
+                const response = await fetch('../races/race_20260223_130449.json');
                 if (response.ok) {
-                    raceData = await response.json();
+                    const rawData = await response.json();
+                    // Transform arena format to dashboard format
+                    raceData = {
+                        race_id: rawData.race_id,
+                        start_time: rawData.start_time,
+                        agents: (rawData.agents_full || []).map(a => ({
+                            agent_id: a.agent_id,
+                            name: a.name,
+                            archetype: a.archetype?.name || a.archetype,
+                            color: a.color,
+                            portfolio_value: a.portfolio_value,
+                            pnl: a.total_pnl || 0,
+                            pnl_pct: a.total_pnl_pct || 0,
+                            trades: a.trades?.length || 0,
+                            win_rate: a.win_rate || 0,
+                            positions: Object.keys(a.positions || {}).length
+                        }))
+                    };
                 } else {
                     // Fallback to sample data
                     raceData = getSampleData();
