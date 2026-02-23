@@ -5,47 +5,8 @@
   "archetype": "Breakout Hunter",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 592.7040000000001,
-  "positions": {
-    "SOL-USD": {
-      "symbol": "SOL-USD",
-      "direction": "SHORT",
-      "qty": 16.344267787301824,
-      "entry_price": 78.3149185180664,
-      "entry_time": "2026-02-23T20:14:01.176402",
-      "leverage": 8.0,
-      "margin": 160.0,
-      "notional_value": 1280.0,
-      "unrealized_pnl": 3.2255338657694725,
-      "reason": "Breakdown: Near low $77.29",
-      "current_price": 78.11756896972656
-    },
-    "AVAX-USD": {
-      "symbol": "AVAX-USD",
-      "direction": "SHORT",
-      "qty": 128.89683592336084,
-      "entry_price": 8.341554641723633,
-      "entry_time": "2026-02-23T20:15:10.663008",
-      "leverage": 8.0,
-      "margin": 134.4,
-      "notional_value": 1075.2,
-      "unrealized_pnl": 5.006882690424357,
-      "reason": "Breakdown: Near low $8.34",
-      "current_price": 8.30271053314209
-    },
-    "DOGE-USD": {
-      "symbol": "DOGE-USD",
-      "direction": "SHORT",
-      "qty": 9728.789660254357,
-      "entry_price": 0.09283456951379776,
-      "entry_time": "2026-02-23T20:30:07.099726",
-      "leverage": 8.0,
-      "margin": 112.896,
-      "notional_value": 903.168,
-      "unrealized_pnl": 0.0,
-      "reason": "Breakdown: Near low $0.09"
-    }
-  },
+  "cash": 1005.1758317551569,
+  "positions": {},
   "trades": [
     {
       "type": "ENTRY",
@@ -79,6 +40,45 @@
       "margin": 112.896,
       "time": "2026-02-23T20:30:07.099735",
       "reason": "Breakdown: Near low $0.09"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "entry_price": 78.3149185180664,
+      "exit_price": 77.88117980957031,
+      "qty": 16.344267787301824,
+      "pnl": 7.089141601378601,
+      "pnl_pct": 4.430713500861626,
+      "hold_time": "3:39:29.264474",
+      "time": "2026-02-23T23:53:30.440887",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "AVAX-USD",
+      "direction": "SHORT",
+      "entry_price": 8.341554641723633,
+      "exit_price": 8.364157676696777,
+      "qty": 128.89683592336084,
+      "pnl": -2.9134596903033976,
+      "pnl_pct": -2.1677527457614563,
+      "hold_time": "3:38:19.831490",
+      "time": "2026-02-23T23:53:30.494504",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "DOGE-USD",
+      "direction": "SHORT",
+      "entry_price": 0.09283456951379776,
+      "exit_price": 0.0927317664027214,
+      "qty": 9728.789660254357,
+      "pnl": 1.0001498440816226,
+      "pnl_pct": 0.8859037025949746,
+      "hold_time": "3:23:23.461033",
+      "time": "2026-02-23T23:53:30.560764",
+      "reason": "RACE_END"
     }
   ],
   "pnl_history": [
@@ -115,9 +115,9 @@
       "DOGE-USD"
     ]
   },
-  "created_at": "2026-02-23T20:30:06.556725",
-  "portfolio_value": 1008.2324165561938,
-  "total_pnl": 8.232416556193812,
-  "total_pnl_pct": 0.8232416556193811,
-  "win_rate": 0.0
+  "created_at": "2026-02-23T23:53:30.088129",
+  "portfolio_value": 1005.1758317551569,
+  "total_pnl": 5.175831755156878,
+  "total_pnl_pct": 0.5175831755156878,
+  "win_rate": 33.33333333333333
 }

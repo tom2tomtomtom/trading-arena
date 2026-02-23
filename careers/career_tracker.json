@@ -528,5 +528,270 @@
     "mentor": null,
     "vp_benefits_active": false,
     "career_started": "2026-02-23T20:01:37.545801"
+  },
+  "Robert_b69c3e0f": {
+    "character": "Robert",
+    "races_completed": 1,
+    "wins": 1,
+    "survivals": 0,
+    "eliminations": 0,
+    "current_title": "Associate",
+    "achievements": [
+      {
+        "name": "Champion",
+        "desc": "Won a race",
+        "icon": "\ud83e\udd47",
+        "id": "winner",
+        "awarded_at": "2026-02-23T23:53:30.729812"
+      },
+      {
+        "name": "First Blood",
+        "desc": "Made first profitable trade",
+        "icon": "\ud83e\ude78",
+        "id": "first_profit",
+        "awarded_at": "2026-02-23T23:53:30.729825"
+      },
+      {
+        "name": "Associate",
+        "desc": "Won 1 race",
+        "icon": "\ud83d\udcbc",
+        "id": "associate",
+        "awarded_at": "2026-02-23T23:53:30.729842"
+      }
+    ],
+    "rank_history": [
+      {
+        "race_id": "race_20260223_201347",
+        "rank": 1,
+        "pnl": 43.0615470720943,
+        "pnl_pct": 4.30615470720943,
+        "date": "2026-02-23T23:53:30.729798"
+      }
+    ],
+    "best_performance": 4.30615470720943,
+    "worst_performance": 0,
+    "total_pnl": 43.0615470720943,
+    "consecutive_wins": 1,
+    "consecutive_survivals": 1,
+    "team_members": [],
+    "mentor": null,
+    "vp_benefits_active": false,
+    "career_started": "2026-02-23T23:53:30.729089",
+    "title_promoted_at": "2026-02-23T23:53:30.729834"
+  },
+  "Bill_d4efa6c3": {
+    "character": "Bill",
+    "races_completed": 1,
+    "wins": 0,
+    "survivals": 1,
+    "eliminations": 0,
+    "current_title": "Rookie",
+    "achievements": [
+      {
+        "name": "Survivor",
+        "desc": "Survived elimination",
+        "icon": "\ud83c\udfc6",
+        "id": "survivor",
+        "awarded_at": "2026-02-23T23:53:30.731588"
+      },
+      {
+        "name": "First Blood",
+        "desc": "Made first profitable trade",
+        "icon": "\ud83e\ude78",
+        "id": "first_profit",
+        "awarded_at": "2026-02-23T23:53:30.731598"
+      }
+    ],
+    "rank_history": [
+      {
+        "race_id": "race_20260223_201347",
+        "rank": 2,
+        "pnl": 18.949179327995125,
+        "pnl_pct": 1.8949179327995125,
+        "date": "2026-02-23T23:53:30.731575"
+      }
+    ],
+    "best_performance": 1.8949179327995125,
+    "worst_performance": 0,
+    "total_pnl": 18.949179327995125,
+    "consecutive_wins": 0,
+    "consecutive_survivals": 1,
+    "team_members": [],
+    "mentor": null,
+    "vp_benefits_active": false,
+    "career_started": "2026-02-23T23:53:30.730682"
+  },
+  "Eric_d61483d2": {
+    "character": "Eric",
+    "races_completed": 1,
+    "wins": 0,
+    "survivals": 1,
+    "eliminations": 0,
+    "current_title": "Rookie",
+    "achievements": [
+      {
+        "name": "Survivor",
+        "desc": "Survived elimination",
+        "icon": "\ud83c\udfc6",
+        "id": "survivor",
+        "awarded_at": "2026-02-23T23:53:30.733483"
+      },
+      {
+        "name": "First Blood",
+        "desc": "Made first profitable trade",
+        "icon": "\ud83e\ude78",
+        "id": "first_profit",
+        "awarded_at": "2026-02-23T23:53:30.733491"
+      }
+    ],
+    "rank_history": [
+      {
+        "race_id": "race_20260223_201347",
+        "rank": 3,
+        "pnl": 5.175831755156878,
+        "pnl_pct": 0.5175831755156878,
+        "date": "2026-02-23T23:53:30.733471"
+      }
+    ],
+    "best_performance": 0.5175831755156878,
+    "worst_performance": 0,
+    "total_pnl": 5.175831755156878,
+    "consecutive_wins": 0,
+    "consecutive_survivals": 1,
+    "team_members": [],
+    "mentor": null,
+    "vp_benefits_active": false,
+    "career_started": "2026-02-23T23:53:30.732422"
+  },
+  "Harper_45629aa7": {
+    "character": "Harper",
+    "races_completed": 1,
+    "wins": 0,
+    "survivals": 1,
+    "eliminations": 0,
+    "current_title": "Rookie",
+    "achievements": [
+      {
+        "name": "Survivor",
+        "desc": "Survived elimination",
+        "icon": "\ud83c\udfc6",
+        "id": "survivor",
+        "awarded_at": "2026-02-23T23:53:30.735884"
+      },
+      {
+        "name": "First Blood",
+        "desc": "Made first profitable trade",
+        "icon": "\ud83e\ude78",
+        "id": "first_profit",
+        "awarded_at": "2026-02-23T23:53:30.735899"
+      }
+    ],
+    "rank_history": [
+      {
+        "race_id": "race_20260223_201347",
+        "rank": 4,
+        "pnl": 2.645315208825423,
+        "pnl_pct": 0.2645315208825423,
+        "date": "2026-02-23T23:53:30.735860"
+      }
+    ],
+    "best_performance": 0.2645315208825423,
+    "worst_performance": 0,
+    "total_pnl": 2.645315208825423,
+    "consecutive_wins": 0,
+    "consecutive_survivals": 1,
+    "team_members": [],
+    "mentor": null,
+    "vp_benefits_active": false,
+    "career_started": "2026-02-23T23:53:30.734723"
+  },
+  "Rishi_38b2870c": {
+    "character": "Rishi",
+    "races_completed": 1,
+    "wins": 0,
+    "survivals": 1,
+    "eliminations": 0,
+    "current_title": "Rookie",
+    "achievements": [
+      {
+        "name": "Survivor",
+        "desc": "Survived elimination",
+        "icon": "\ud83c\udfc6",
+        "id": "survivor",
+        "awarded_at": "2026-02-23T23:53:30.737456"
+      }
+    ],
+    "rank_history": [
+      {
+        "race_id": "race_20260223_201347",
+        "rank": 5,
+        "pnl": 0.0,
+        "pnl_pct": 0.0,
+        "date": "2026-02-23T23:53:30.737444"
+      }
+    ],
+    "best_performance": 0,
+    "worst_performance": 0,
+    "total_pnl": 0.0,
+    "consecutive_wins": 0,
+    "consecutive_survivals": 1,
+    "team_members": [],
+    "mentor": null,
+    "vp_benefits_active": false,
+    "career_started": "2026-02-23T23:53:30.736648"
+  },
+  "Gus_608a0a97": {
+    "character": "Gus",
+    "races_completed": 1,
+    "wins": 0,
+    "survivals": 0,
+    "eliminations": 1,
+    "current_title": "Rookie",
+    "achievements": [],
+    "rank_history": [
+      {
+        "race_id": "race_20260223_201347",
+        "rank": 6,
+        "pnl": 0.0,
+        "pnl_pct": 0.0,
+        "date": "2026-02-23T23:53:30.738987"
+      }
+    ],
+    "best_performance": 0,
+    "worst_performance": 0,
+    "total_pnl": 0.0,
+    "consecutive_wins": 0,
+    "consecutive_survivals": 0,
+    "team_members": [],
+    "mentor": null,
+    "vp_benefits_active": false,
+    "career_started": "2026-02-23T23:53:30.738200"
+  },
+  "Yasmin_2696b3d6": {
+    "character": "Yasmin",
+    "races_completed": 1,
+    "wins": 0,
+    "survivals": 0,
+    "eliminations": 1,
+    "current_title": "Rookie",
+    "achievements": [],
+    "rank_history": [
+      {
+        "race_id": "race_20260223_201347",
+        "rank": 7,
+        "pnl": 0.0,
+        "pnl_pct": 0.0,
+        "date": "2026-02-23T23:53:30.740796"
+      }
+    ],
+    "best_performance": 0,
+    "worst_performance": 0,
+    "total_pnl": 0.0,
+    "consecutive_wins": 0,
+    "consecutive_survivals": 0,
+    "team_members": [],
+    "mentor": null,
+    "vp_benefits_active": false,
+    "career_started": "2026-02-23T23:53:30.739857"
   }
 }

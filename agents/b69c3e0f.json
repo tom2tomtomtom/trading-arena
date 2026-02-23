@@ -5,22 +5,8 @@
   "archetype": "Momentum Surfer",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 590.0,
-  "positions": {
-    "SOL-USD": {
-      "symbol": "SOL-USD",
-      "direction": "SHORT",
-      "qty": 99.27992643636068,
-      "entry_price": 78.3149185180664,
-      "entry_time": "2026-02-23T20:14:01.479640",
-      "leverage": 18.963656949617594,
-      "margin": 410.0,
-      "notional_value": 7775.099349343213,
-      "unrealized_pnl": 19.592848641428695,
-      "reason": "Momentum: -5.4% and trending down",
-      "current_price": 78.11756896972656
-    }
-  },
+  "cash": 1043.0615470720943,
+  "positions": {},
   "trades": [
     {
       "type": "ENTRY",
@@ -32,6 +18,19 @@
       "margin": 410.0,
       "time": "2026-02-23T20:14:01.479648",
       "reason": "Momentum: -5.4% and trending down"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "entry_price": 78.3149185180664,
+      "exit_price": 77.88117980957031,
+      "qty": 99.27992643636068,
+      "pnl": 43.06154707209428,
+      "pnl_pct": 10.502816359047385,
+      "hold_time": "3:39:29.248742",
+      "time": "2026-02-23T23:53:30.728388",
+      "reason": "RACE_END"
     }
   ],
   "pnl_history": [
@@ -68,9 +67,9 @@
       "AMD"
     ]
   },
-  "created_at": "2026-02-23T20:30:06.556786",
-  "portfolio_value": 1019.5928486414286,
-  "total_pnl": 19.592848641428645,
-  "total_pnl_pct": 1.9592848641428646,
-  "win_rate": 0.0
+  "created_at": "2026-02-23T23:53:30.088195",
+  "portfolio_value": 1043.0615470720943,
+  "total_pnl": 43.0615470720943,
+  "total_pnl_pct": 4.30615470720943,
+  "win_rate": 50.0
 }

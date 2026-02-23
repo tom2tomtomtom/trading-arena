@@ -12,8 +12,8 @@
   "duration_hours": 3,
   "risk_tier": "high",
   "start_time": "2026-02-23T20:13:47.786853",
-  "end_time": null,
-  "status": "running",
+  "end_time": "2026-02-23T23:53:30.088738",
+  "status": "completed",
   "snapshots": [
     {
       "timestamp": "2026-02-23T20:14:01.655337",
@@ -294,47 +294,8 @@
       "archetype": "Breakout Hunter",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 592.7040000000001,
-      "positions": {
-        "SOL-USD": {
-          "symbol": "SOL-USD",
-          "direction": "SHORT",
-          "qty": 16.344267787301824,
-          "entry_price": 78.3149185180664,
-          "entry_time": "2026-02-23T20:14:01.176402",
-          "leverage": 8.0,
-          "margin": 160.0,
-          "notional_value": 1280.0,
-          "unrealized_pnl": 3.2255338657694725,
-          "reason": "Breakdown: Near low $77.29",
-          "current_price": 78.11756896972656
-        },
-        "AVAX-USD": {
-          "symbol": "AVAX-USD",
-          "direction": "SHORT",
-          "qty": 128.89683592336084,
-          "entry_price": 8.341554641723633,
-          "entry_time": "2026-02-23T20:15:10.663008",
-          "leverage": 8.0,
-          "margin": 134.4,
-          "notional_value": 1075.2,
-          "unrealized_pnl": 5.006882690424357,
-          "reason": "Breakdown: Near low $8.34",
-          "current_price": 8.30271053314209
-        },
-        "DOGE-USD": {
-          "symbol": "DOGE-USD",
-          "direction": "SHORT",
-          "qty": 9728.789660254357,
-          "entry_price": 0.09283456951379776,
-          "entry_time": "2026-02-23T20:30:07.099726",
-          "leverage": 8.0,
-          "margin": 112.896,
-          "notional_value": 903.168,
-          "unrealized_pnl": 0.0,
-          "reason": "Breakdown: Near low $0.09"
-        }
-      },
+      "cash": 1005.1758317551569,
+      "positions": {},
       "trades": [
         {
           "type": "ENTRY",
@@ -368,6 +329,45 @@
           "margin": 112.896,
           "time": "2026-02-23T20:30:07.099735",
           "reason": "Breakdown: Near low $0.09"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "SOL-USD",
+          "direction": "SHORT",
+          "entry_price": 78.3149185180664,
+          "exit_price": 77.88117980957031,
+          "qty": 16.344267787301824,
+          "pnl": 7.089141601378601,
+          "pnl_pct": 4.430713500861626,
+          "hold_time": "3:39:29.264474",
+          "time": "2026-02-23T23:53:30.440887",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "AVAX-USD",
+          "direction": "SHORT",
+          "entry_price": 8.341554641723633,
+          "exit_price": 8.364157676696777,
+          "qty": 128.89683592336084,
+          "pnl": -2.9134596903033976,
+          "pnl_pct": -2.1677527457614563,
+          "hold_time": "3:38:19.831490",
+          "time": "2026-02-23T23:53:30.494504",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "DOGE-USD",
+          "direction": "SHORT",
+          "entry_price": 0.09283456951379776,
+          "exit_price": 0.0927317664027214,
+          "qty": 9728.789660254357,
+          "pnl": 1.0001498440816226,
+          "pnl_pct": 0.8859037025949746,
+          "hold_time": "3:23:23.461033",
+          "time": "2026-02-23T23:53:30.560764",
+          "reason": "RACE_END"
         }
       ],
       "pnl_history": [
@@ -404,11 +404,11 @@
           "DOGE-USD"
         ]
       },
-      "created_at": "2026-02-23T20:30:06.556725",
-      "portfolio_value": 1008.2324165561938,
-      "total_pnl": 8.232416556193812,
-      "total_pnl_pct": 0.8232416556193811,
-      "win_rate": 0.0
+      "created_at": "2026-02-23T23:53:30.088129",
+      "portfolio_value": 1005.1758317551569,
+      "total_pnl": 5.175831755156878,
+      "total_pnl_pct": 0.5175831755156878,
+      "win_rate": 33.33333333333333
     },
     {
       "agent_id": "d4efa6c3",
@@ -417,35 +417,8 @@
       "archetype": "Contrarian",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 291.6,
-      "positions": {
-        "BTC-USD": {
-          "symbol": "BTC-USD",
-          "direction": "LONG",
-          "qty": 0.04415737201098961,
-          "entry_price": 64181.7734375,
-          "entry_time": "2026-02-23T20:14:01.263856",
-          "leverage": 6.161083578271172,
-          "margin": 460.0,
-          "notional_value": 2834.098446004739,
-          "unrealized_pnl": -5.6875040129623455,
-          "reason": "Contrarian: Down -5.2%, buying fear",
-          "current_price": 64052.97265625
-        },
-        "ETH-USD": {
-          "symbol": "ETH-USD",
-          "direction": "LONG",
-          "qty": 0.8362405171461488,
-          "entry_price": 1853.3790283203125,
-          "entry_time": "2026-02-23T20:15:10.794903",
-          "leverage": 6.239414803181984,
-          "margin": 248.4,
-          "notional_value": 1549.870637110405,
-          "unrealized_pnl": -0.7978583840349486,
-          "reason": "Contrarian: Down -5.2%, buying fear",
-          "current_price": 1852.4249267578125
-        }
-      },
+      "cash": 1018.9491793279951,
+      "positions": {},
       "trades": [
         {
           "type": "ENTRY",
@@ -468,6 +441,32 @@
           "margin": 248.4,
           "time": "2026-02-23T20:15:10.794910",
           "reason": "Contrarian: Down -5.2%, buying fear"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "BTC-USD",
+          "direction": "LONG",
+          "entry_price": 64181.7734375,
+          "exit_price": 64597.546875,
+          "qty": 0.04415737201098961,
+          "pnl": 18.359462351975438,
+          "pnl_pct": 3.9911874678207475,
+          "hold_time": "3:39:29.356945",
+          "time": "2026-02-23T23:53:30.620806",
+          "reason": "RACE_END"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "ETH-USD",
+          "direction": "LONG",
+          "entry_price": 1853.3790283203125,
+          "exit_price": 1854.084228515625,
+          "qty": 0.8362405171461488,
+          "pnl": 0.5897169760196901,
+          "pnl_pct": 0.23740619002402982,
+          "hold_time": "3:38:19.874753",
+          "time": "2026-02-23T23:53:30.669662",
+          "reason": "RACE_END"
         }
       ],
       "pnl_history": [
@@ -504,11 +503,11 @@
           "SPY"
         ]
       },
-      "created_at": "2026-02-23T20:30:06.556761",
-      "portfolio_value": 993.5146376030027,
-      "total_pnl": -6.485362396997289,
-      "total_pnl_pct": -0.6485362396997288,
-      "win_rate": 0.0
+      "created_at": "2026-02-23T23:53:30.088169",
+      "portfolio_value": 1018.9491793279951,
+      "total_pnl": 18.949179327995125,
+      "total_pnl_pct": 1.8949179327995125,
+      "win_rate": 50.0
     },
     {
       "agent_id": "45629aa7",
@@ -517,21 +516,8 @@
       "archetype": "Trend Follower",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 820.0,
-      "positions": {
-        "QQQ": {
-          "symbol": "QQQ",
-          "direction": "LONG",
-          "qty": 2.0994402432375563,
-          "entry_price": 600.1599731445312,
-          "entry_time": "2026-02-23T20:30:07.359827",
-          "leverage": 7.0,
-          "margin": 180.0,
-          "notional_value": 1260.0,
-          "unrealized_pnl": 0.0,
-          "reason": "Trend: Above SMA, RSI 42"
-        }
-      },
+      "cash": 1002.6453152088254,
+      "positions": {},
       "trades": [
         {
           "type": "ENTRY",
@@ -543,6 +529,19 @@
           "margin": 180.0,
           "time": "2026-02-23T20:30:07.359834",
           "reason": "Trend: Above SMA, RSI 42"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "QQQ",
+          "direction": "LONG",
+          "entry_price": 600.1599731445312,
+          "exit_price": 601.4199829101562,
+          "qty": 2.0994402432375563,
+          "pnl": 2.6453152088254464,
+          "pnl_pct": 1.4696195604585813,
+          "hold_time": "3:23:23.367839",
+          "time": "2026-02-23T23:53:30.727673",
+          "reason": "RACE_END"
         }
       ],
       "pnl_history": [
@@ -579,11 +578,11 @@
           "NVDA"
         ]
       },
-      "created_at": "2026-02-23T20:30:06.556772",
-      "portfolio_value": 1000.0,
-      "total_pnl": 0.0,
-      "total_pnl_pct": 0.0,
-      "win_rate": 0.0
+      "created_at": "2026-02-23T23:53:30.088180",
+      "portfolio_value": 1002.6453152088254,
+      "total_pnl": 2.645315208825423,
+      "total_pnl_pct": 0.2645315208825423,
+      "win_rate": 50.0
     },
     {
       "agent_id": "38b2870c",
@@ -628,7 +627,7 @@
           "ETH-USD"
         ]
       },
-      "created_at": "2026-02-23T20:30:06.556779",
+      "created_at": "2026-02-23T23:53:30.088188",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -641,22 +640,8 @@
       "archetype": "Momentum Surfer",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 590.0,
-      "positions": {
-        "SOL-USD": {
-          "symbol": "SOL-USD",
-          "direction": "SHORT",
-          "qty": 99.27992643636068,
-          "entry_price": 78.3149185180664,
-          "entry_time": "2026-02-23T20:14:01.479640",
-          "leverage": 18.963656949617594,
-          "margin": 410.0,
-          "notional_value": 7775.099349343213,
-          "unrealized_pnl": 19.592848641428695,
-          "reason": "Momentum: -5.4% and trending down",
-          "current_price": 78.11756896972656
-        }
-      },
+      "cash": 1043.0615470720943,
+      "positions": {},
       "trades": [
         {
           "type": "ENTRY",
@@ -668,6 +653,19 @@
           "margin": 410.0,
           "time": "2026-02-23T20:14:01.479648",
           "reason": "Momentum: -5.4% and trending down"
+        },
+        {
+          "type": "EXIT",
+          "symbol": "SOL-USD",
+          "direction": "SHORT",
+          "entry_price": 78.3149185180664,
+          "exit_price": 77.88117980957031,
+          "qty": 99.27992643636068,
+          "pnl": 43.06154707209428,
+          "pnl_pct": 10.502816359047385,
+          "hold_time": "3:39:29.248742",
+          "time": "2026-02-23T23:53:30.728388",
+          "reason": "RACE_END"
         }
       ],
       "pnl_history": [
@@ -704,11 +702,11 @@
           "AMD"
         ]
       },
-      "created_at": "2026-02-23T20:30:06.556786",
-      "portfolio_value": 1019.5928486414286,
-      "total_pnl": 19.592848641428645,
-      "total_pnl_pct": 1.9592848641428646,
-      "win_rate": 0.0
+      "created_at": "2026-02-23T23:53:30.088195",
+      "portfolio_value": 1043.0615470720943,
+      "total_pnl": 43.0615470720943,
+      "total_pnl_pct": 4.30615470720943,
+      "win_rate": 50.0
     },
     {
       "agent_id": "608a0a97",
@@ -754,7 +752,7 @@
           "SPY"
         ]
       },
-      "created_at": "2026-02-23T20:30:06.556796",
+      "created_at": "2026-02-23T23:53:30.088201",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -804,7 +802,7 @@
           "SOL-USD"
         ]
       },
-      "created_at": "2026-02-23T20:30:06.556802",
+      "created_at": "2026-02-23T23:53:30.088207",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,

@@ -516,19 +516,19 @@ class Arena:
         print("\n" + "=" * 60)
         print("🔥 ELIMINATION CEREMONY 🔥")
         print("=" * 60)
+        dramatic_lines = {
+            'Harper': "Your ambition was admirable... but ambition without results is nothing.",
+            'Rishi': "Fast doesn't always mean profitable. Pack your knives.",
+            'Yasmin': "Even privilege has its limits. You're out.",
+            'Gus': "Your models failed. The market doesn't care about your statistics.",
+            'Robert': "YOLO doesn't always work. Unfortunately, you YOLO'd your account.",
+            'Eric': "The mentor has become the student... in failure.",
+            'Danny': "We knew you'd go out like this. At least you went out swinging.",
+            'Venetia': "Sentiment turned against you. Including ours.",
+            'Clement': "Pairs diverged, and so did your career here."
+        }
         for e in eliminated:
-            char_name = e.split('_')[0] if '_' in e else e
-            dramatic_lines = {
-                'Harper': "Your ambition was admirable... but ambition without results is nothing.",
-                'Rishi': "Fast doesn't always mean profitable. Pack your knives.",
-                'Yasmin': "Even privilege has its limits. You're out.",
-                'Gus': "Your models failed. The market doesn't care about your statistics.",
-                'Robert': "YOLO doesn't always work. Unfortunately, you YOLO'd your account.",
-                'Eric': "The mentor has become the student... in failure.",
-                'Danny': "We knew you'd go out like this. At least you went out swinging.",
-                'Venetia': "Sentiment turned against you. Including ours.",
-                'Clement': "Pairs diverged, and so did your career here."
-            }
+            char_name = e['name'].split('_')[0] if '_' in e['name'] else e['name']
             print(f"\n💀 #{e['rank']} {e['color']} {e['name']} ({e['archetype']})")
             print(f"   Final P&L: ${e['pnl']:.2f} ({e['pnl_pct']:+.2f}%)")
             print(f"   \"{dramatic_lines.get(char_name, 'Your strategy failed.')}\"")

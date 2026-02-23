@@ -5,35 +5,8 @@
   "archetype": "Contrarian",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 291.6,
-  "positions": {
-    "BTC-USD": {
-      "symbol": "BTC-USD",
-      "direction": "LONG",
-      "qty": 0.04415737201098961,
-      "entry_price": 64181.7734375,
-      "entry_time": "2026-02-23T20:14:01.263856",
-      "leverage": 6.161083578271172,
-      "margin": 460.0,
-      "notional_value": 2834.098446004739,
-      "unrealized_pnl": -5.6875040129623455,
-      "reason": "Contrarian: Down -5.2%, buying fear",
-      "current_price": 64052.97265625
-    },
-    "ETH-USD": {
-      "symbol": "ETH-USD",
-      "direction": "LONG",
-      "qty": 0.8362405171461488,
-      "entry_price": 1853.3790283203125,
-      "entry_time": "2026-02-23T20:15:10.794903",
-      "leverage": 6.239414803181984,
-      "margin": 248.4,
-      "notional_value": 1549.870637110405,
-      "unrealized_pnl": -0.7978583840349486,
-      "reason": "Contrarian: Down -5.2%, buying fear",
-      "current_price": 1852.4249267578125
-    }
-  },
+  "cash": 1018.9491793279951,
+  "positions": {},
   "trades": [
     {
       "type": "ENTRY",
@@ -56,6 +29,32 @@
       "margin": 248.4,
       "time": "2026-02-23T20:15:10.794910",
       "reason": "Contrarian: Down -5.2%, buying fear"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTC-USD",
+      "direction": "LONG",
+      "entry_price": 64181.7734375,
+      "exit_price": 64597.546875,
+      "qty": 0.04415737201098961,
+      "pnl": 18.359462351975438,
+      "pnl_pct": 3.9911874678207475,
+      "hold_time": "3:39:29.356945",
+      "time": "2026-02-23T23:53:30.620806",
+      "reason": "RACE_END"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETH-USD",
+      "direction": "LONG",
+      "entry_price": 1853.3790283203125,
+      "exit_price": 1854.084228515625,
+      "qty": 0.8362405171461488,
+      "pnl": 0.5897169760196901,
+      "pnl_pct": 0.23740619002402982,
+      "hold_time": "3:38:19.874753",
+      "time": "2026-02-23T23:53:30.669662",
+      "reason": "RACE_END"
     }
   ],
   "pnl_history": [
@@ -92,9 +91,9 @@
       "SPY"
     ]
   },
-  "created_at": "2026-02-23T20:30:06.556761",
-  "portfolio_value": 993.5146376030027,
-  "total_pnl": -6.485362396997289,
-  "total_pnl_pct": -0.6485362396997288,
-  "win_rate": 0.0
+  "created_at": "2026-02-23T23:53:30.088169",
+  "portfolio_value": 1018.9491793279951,
+  "total_pnl": 18.949179327995125,
+  "total_pnl_pct": 1.8949179327995125,
+  "win_rate": 50.0
 }
