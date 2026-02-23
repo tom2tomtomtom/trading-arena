@@ -104,6 +104,96 @@
           "positions": 0
         }
       ]
+    },
+    {
+      "timestamp": "2026-02-23T13:15:52.847107",
+      "elapsed_seconds": 658.302497,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udfe3",
+          "name": "Rishi_5de956a4",
+          "archetype": "Scalper",
+          "portfolio_value": 1000.8529687816888,
+          "pnl": 0.8529687816887872,
+          "pnl_pct": 0.08529687816887872,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        },
+        {
+          "rank": 2,
+          "color": "\u26aa",
+          "name": "Gus_b0f09623",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 3,
+          "color": "\u2b1b",
+          "name": "Danny_a8e97c24",
+          "archetype": "YOLO",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 4,
+          "color": "\ud83e\ude77",
+          "name": "Venetia_0a6e6925",
+          "archetype": "Sentiment Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\u2b1b",
+          "name": "Robert_f4e58cd3",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 6,
+          "color": "\ud83d\udfe4",
+          "name": "Clement_b5a2e495",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe4",
+          "name": "Harper_95430529",
+          "archetype": "Trend Follower",
+          "portfolio_value": 999.6971342731684,
+          "pnl": -0.30286572683155555,
+          "pnl_pct": -0.030286572683155554,
+          "trades": 2,
+          "win_rate": 0.0,
+          "positions": 2
+        }
+      ]
     }
   ],
   "agents_full": [
@@ -114,7 +204,7 @@
       "archetype": "Scalper",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 540.0,
+      "cash": 291.6,
       "positions": {
         "BTC-USD": {
           "symbol": "BTC-USD",
@@ -125,6 +215,19 @@
           "leverage": 6.0,
           "margin": 460.0,
           "notional_value": 2760.0,
+          "unrealized_pnl": 0.852968781688779,
+          "reason": "Scalp: -1.9% move",
+          "current_price": 66236.7109375
+        },
+        "ETH-USD": {
+          "symbol": "ETH-USD",
+          "direction": "SHORT",
+          "qty": 0.7754621944170259,
+          "entry_price": 1921.9505615234375,
+          "entry_time": "2026-02-23T13:15:50.426762",
+          "leverage": 6.0,
+          "margin": 248.4,
+          "notional_value": 1490.4,
           "unrealized_pnl": 0.0,
           "reason": "Scalp: -1.9% move"
         }
@@ -140,6 +243,17 @@
           "margin": 460.0,
           "time": "2026-02-23T13:10:05.007570",
           "reason": "Scalp: -1.9% move"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "ETH-USD",
+          "direction": "SHORT",
+          "price": 1921.9505615234375,
+          "qty": 0.7754621944170259,
+          "leverage": 6.0,
+          "margin": 248.4,
+          "time": "2026-02-23T13:15:50.426768",
+          "reason": "Scalp: -1.9% move"
         }
       ],
       "pnl_history": [
@@ -148,6 +262,12 @@
           "portfolio_value": 1000.0,
           "cash": 540.0,
           "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T13:15:50.426819",
+          "portfolio_value": 1000.8529687816888,
+          "cash": 291.6,
+          "positions": 2
         }
       ],
       "strategy_params": {
@@ -163,10 +283,10 @@
           "ETH-USD"
         ]
       },
-      "created_at": "2026-02-23T13:10:04.667209",
-      "portfolio_value": 1000.0,
-      "total_pnl": 0.0,
-      "total_pnl_pct": 0.0,
+      "created_at": "2026-02-23T13:15:50.071700",
+      "portfolio_value": 1000.8529687816888,
+      "total_pnl": 0.8529687816887872,
+      "total_pnl_pct": 0.08529687816887872,
       "win_rate": 0.0
     },
     {
@@ -182,6 +302,12 @@
       "pnl_history": [
         {
           "timestamp": "2026-02-23T13:10:05.150965",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T13:15:50.543416",
           "portfolio_value": 1000.0,
           "cash": 1000.0,
           "positions": 0
@@ -201,7 +327,7 @@
           "SPY"
         ]
       },
-      "created_at": "2026-02-23T13:10:04.667248",
+      "created_at": "2026-02-23T13:15:50.071739",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -214,7 +340,7 @@
       "archetype": "Trend Follower",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 860.0,
+      "cash": 739.6,
       "positions": {
         "BTC-USD": {
           "symbol": "BTC-USD",
@@ -225,8 +351,21 @@
           "leverage": 7.0,
           "margin": 140.0,
           "notional_value": 980.0,
+          "unrealized_pnl": -0.302865726831523,
+          "reason": "Trend: Above SMA, RSI 57",
+          "current_price": 66236.7109375
+        },
+        "QQQ": {
+          "symbol": "QQQ",
+          "direction": "LONG",
+          "qty": 1.3842035356624671,
+          "entry_price": 608.8699951171875,
+          "entry_time": "2026-02-23T13:15:50.632800",
+          "leverage": 7.0,
+          "margin": 120.4,
+          "notional_value": 842.8000000000001,
           "unrealized_pnl": 0.0,
-          "reason": "Trend: Above SMA, RSI 57"
+          "reason": "Trend: Above SMA, RSI 60"
         }
       },
       "trades": [
@@ -240,6 +379,17 @@
           "margin": 140.0,
           "time": "2026-02-23T13:10:05.178966",
           "reason": "Trend: Above SMA, RSI 57"
+        },
+        {
+          "type": "ENTRY",
+          "symbol": "QQQ",
+          "direction": "LONG",
+          "price": 608.8699951171875,
+          "qty": 1.3842035356624671,
+          "leverage": 7.0,
+          "margin": 120.4,
+          "time": "2026-02-23T13:15:50.632809",
+          "reason": "Trend: Above SMA, RSI 60"
         }
       ],
       "pnl_history": [
@@ -248,6 +398,12 @@
           "portfolio_value": 1000.0,
           "cash": 860.0,
           "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T13:15:50.632867",
+          "portfolio_value": 999.6971342731684,
+          "cash": 739.6,
+          "positions": 2
         }
       ],
       "strategy_params": {
@@ -264,10 +420,10 @@
           "NVDA"
         ]
       },
-      "created_at": "2026-02-23T13:10:04.667259",
-      "portfolio_value": 1000.0,
-      "total_pnl": 0.0,
-      "total_pnl_pct": 0.0,
+      "created_at": "2026-02-23T13:15:50.071751",
+      "portfolio_value": 999.6971342731684,
+      "total_pnl": -0.30286572683155555,
+      "total_pnl_pct": -0.030286572683155554,
       "win_rate": 0.0
     },
     {
@@ -283,6 +439,12 @@
       "pnl_history": [
         {
           "timestamp": "2026-02-23T13:10:05.275062",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T13:15:50.711470",
           "portfolio_value": 1000.0,
           "cash": 1000.0,
           "positions": 0
@@ -302,7 +464,7 @@
           "SOL-USD"
         ]
       },
-      "created_at": "2026-02-23T13:10:04.667270",
+      "created_at": "2026-02-23T13:15:50.071759",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -324,6 +486,12 @@
           "portfolio_value": 1000.0,
           "cash": 1000.0,
           "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T13:15:50.824420",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
         }
       ],
       "strategy_params": {
@@ -340,7 +508,7 @@
           "TSLA"
         ]
       },
-      "created_at": "2026-02-23T13:10:04.667277",
+      "created_at": "2026-02-23T13:15:50.071766",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -365,7 +533,8 @@
           "margin": 170.0,
           "notional_value": 1175.6107871749932,
           "unrealized_pnl": 0.0,
-          "reason": "Momentum: +1.8% and trending up"
+          "reason": "Momentum: +1.8% and trending up",
+          "current_price": 189.8300018310547
         }
       },
       "trades": [
@@ -387,6 +556,12 @@
           "portfolio_value": 1000.0,
           "cash": 830.0,
           "positions": 1
+        },
+        {
+          "timestamp": "2026-02-23T13:15:50.950012",
+          "portfolio_value": 1000.0,
+          "cash": 830.0,
+          "positions": 1
         }
       ],
       "strategy_params": {
@@ -403,7 +578,7 @@
           "AMD"
         ]
       },
-      "created_at": "2026-02-23T13:10:04.667284",
+      "created_at": "2026-02-23T13:15:50.071773",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -425,6 +600,12 @@
           "portfolio_value": 1000.0,
           "cash": 1000.0,
           "positions": 0
+        },
+        {
+          "timestamp": "2026-02-23T13:15:52.846606",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
         }
       ],
       "strategy_params": {
@@ -440,7 +621,7 @@
           "SPY/QQQ"
         ]
       },
-      "created_at": "2026-02-23T13:10:04.667289",
+      "created_at": "2026-02-23T13:15:50.071778",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,

@@ -121,6 +121,32 @@ def get_survival_quote(character: str, rank: int, total: int, in_danger: bool) -
                 "MAX LEVERAGE! NO STOPS!",
                 "THIS IS NOT HOW MY STORY ENDS!"
             ]
+        },
+        "Venetia": {
+            "safe": [
+                "The sentiment is clear - I'm winning.",
+                "News flows my way.",
+                "Social media loves me today."
+            ],
+            "danger": [
+                "The sentiment... it's turning against me!",
+                "I need to post something, anything!",
+                "If I tweet hard enough, the market will move!",
+                "INFLUENCER MODE ACTIVATED!"
+            ]
+        },
+        "Clement": {
+            "safe": [
+                "The pairs are converging nicely.",
+                "Statistics are on my side.",
+                "Market neutral and profitable."
+            ],
+            "danger": [
+                "The correlation is breaking down!",
+                "I need to find NEW pairs!",
+                "Correlation is NOT causation but I need BOTH!",
+                "ALL PAIRS DIVERGING! PANIC!"
+            ]
         }
     }
     
@@ -142,7 +168,9 @@ def apply_survival_mode(agent: Dict, standings: List, is_in_danger: bool) -> Dic
         'rank': rank,
         'total': len(standings),
         'in_danger': is_in_danger,
-        'quote': get_survival_quote(character, rank, len(standings), is_in_danger)
+        'quote': get_survival_quote(character, rank, len(standings), is_in_danger),
+        'mode': 'NORMAL',
+        'action': 'STANDARD_OPS'
     }
     
     # Adjust behavior based on danger level
@@ -154,8 +182,10 @@ def apply_survival_mode(agent: Dict, standings: List, is_in_danger: bool) -> Dic
         # Each archetype responds differently to danger
         if archetype == 'YOLO':
             # Danny/Robert: Go MORE aggressive
-            risk['leverage'] = min(int(risk.get('leverage', '10x').rstrip('x')) + 5, 20)
+            risk['leverage'] = min(int(str(risk.get('leverage', '10x')).rstrip('x')) + 5, 20)
             risk['stop_loss'] = '20%'  # Wider stops
+            if 'survival' not in agent:
+                agent['survival'] = {}
             agent['survival']['mode'] = 'DESPERATE'
             agent['survival']['action'] = 'MAX_RISK'
             
@@ -200,6 +230,25 @@ def apply_survival_mode(agent: Dict, standings: List, is_in_danger: bool) -> Dic
             risk['fomo_factor'] = 2.0
             agent['survival']['mode'] = 'FOMO_MAX'
             agent['survival']['action'] = 'CHASE_EVERYTHING'
+            
+        elif archetype == 'Pairs Trader':
+            # Clement: Take more pairs, looser correlation requirements
+            risk['correlation_threshold'] = 0.6  # Lower correlation requirement
+            risk['divergence_threshold'] = 1.5  # Smaller divergences to trade
+            agent['survival']['mode'] = 'AGGRESSIVE'
+            agent['survival']['action'] = 'MORE_PAIRS'
+            
+        elif archetype == 'Sentiment Trader':
+            # Venetia: Trade on weaker sentiment signals
+            risk['sentiment_threshold'] = 0.5  # Lower threshold
+            risk['news_reaction_speed'] = 'immediate'  # Trade faster on news
+            agent['survival']['mode'] = 'REACTIVE'
+            agent['survival']['action'] = 'FASTER_TRADES'
+            
+        else:
+            # Default: generic aggressive mode
+            agent['survival']['mode'] = 'DESPERATE'
+            agent['survival']['action'] = 'ALL_IN'
     else:
         agent['survival']['mode'] = 'NORMAL'
         agent['survival']['action'] = 'STANDARD_OPS'

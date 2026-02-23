@@ -240,10 +240,10 @@ class Arena:
                 survival_data = apply_survival_mode(agent_dict, standings, is_in_danger)
                 
                 # Print survival quote if in danger
-                if 'survival' in survival_data and survival_data['survival'].get('in_danger'):
+                if survival_data.get('survival', {}).get('in_danger'):
                     quote = survival_data['survival']['quote']
-                    mode = survival_data['survival']['mode']
-                    action = survival_data['survival']['action']
+                    mode = survival_data['survival'].get('mode', 'UNKNOWN')
+                    action = survival_data['survival'].get('action', 'NONE')
                     print(f"\n🔥 {agent.name}: \"{quote}\"")
                     print(f"   Mode: {mode} | Action: {action}")
                     
