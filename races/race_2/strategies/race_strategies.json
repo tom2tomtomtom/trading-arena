@@ -1,0 +1,197 @@
+{
+  "Harper": {
+    "strategy_name": "Trend Surfer Pro",
+    "philosophy": "Ride the wave, never fight the trend",
+    "entry_rules": [
+      "Price breaks above 20-period EMA",
+      "RSI(14) > 50 and rising",
+      "Volume > 1.5x average"
+    ],
+    "exit_rules": [
+      "Stop loss at -5%",
+      "Take profit at +15%",
+      "Price closes below 20 EMA"
+    ],
+    "risk_management": {
+      "stop_loss": "5%",
+      "take_profit": "15%",
+      "max_positions": 3,
+      "leverage": "10x"
+    },
+    "preferred_assets": [
+      "BTC-USD",
+      "QQQ",
+      "NVDA"
+    ],
+    "timeframe": "5min",
+    "character": "Harper",
+    "created_at": "2026-02-23T13:04:39.423037"
+  },
+  "Rishi": {
+    "strategy_name": "Blade Runner",
+    "philosophy": "Cut losses fast, let winners run briefly",
+    "entry_rules": [
+      "1-minute breakout above resistance",
+      "Order book imbalance bullish",
+      "Momentum spike detected"
+    ],
+    "exit_rules": [
+      "Stop loss at -2%",
+      "Take profit at +4%",
+      "Hold time > 10 minutes"
+    ],
+    "risk_management": {
+      "stop_loss": "2%",
+      "take_profit": "4%",
+      "max_positions": 4,
+      "leverage": "15x"
+    },
+    "preferred_assets": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD"
+    ],
+    "timeframe": "1min",
+    "character": "Rishi",
+    "created_at": "2026-02-23T13:04:39.423065"
+  },
+  "Yasmin": {
+    "strategy_name": "Whale Watcher Elite",
+    "philosophy": "Let others test the water, then dive in",
+    "entry_rules": [
+      "Smart money flow positive for 5+ minutes",
+      "Large block trades detected",
+      "Price stability after initial move"
+    ],
+    "exit_rules": [
+      "Stop loss at -4%",
+      "Take profit at +8%",
+      "Whale flow reverses"
+    ],
+    "risk_management": {
+      "stop_loss": "4%",
+      "take_profit": "8%",
+      "max_positions": 2,
+      "leverage": "5x"
+    },
+    "preferred_assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ],
+    "timeframe": "15min",
+    "character": "Yasmin",
+    "created_at": "2026-02-23T13:04:39.423072"
+  },
+  "Gus": {
+    "strategy_name": "Statistical Arbitrage",
+    "philosophy": "Markets revert to mean, always",
+    "entry_rules": [
+      "RSI(14) < 30 (oversold)",
+      "Price 2+ std dev below mean",
+      "Volume declining (capitulation)"
+    ],
+    "exit_rules": [
+      "Stop loss at -8%",
+      "Take profit at mean reversion",
+      "RSI returns to 50"
+    ],
+    "risk_management": {
+      "stop_loss": "8%",
+      "take_profit": "10%",
+      "max_positions": 3,
+      "leverage": "8x"
+    },
+    "preferred_assets": [
+      "ETH-USD",
+      "BTC-USD",
+      "SPY"
+    ],
+    "timeframe": "15min",
+    "character": "Gus",
+    "created_at": "2026-02-23T13:04:39.423078"
+  },
+  "Robert": {
+    "strategy_name": "YOLO Momentum",
+    "philosophy": "Fortune favors the bold",
+    "entry_rules": [
+      "FOMO indicator maxed",
+      "Price up 3% in 5 minutes",
+      "Social sentiment surging"
+    ],
+    "exit_rules": [
+      "Stop loss at -5%",
+      "Take profit at +20%",
+      "Momentum stalls"
+    ],
+    "risk_management": {
+      "stop_loss": "5%",
+      "take_profit": "20%",
+      "max_positions": 1,
+      "leverage": "20x"
+    },
+    "preferred_assets": [
+      "SOL-USD",
+      "DOGE-USD",
+      "AMD"
+    ],
+    "timeframe": "3min",
+    "character": "Robert",
+    "created_at": "2026-02-23T13:04:39.423082"
+  },
+  "Eric": {
+    "strategy_name": "Breakout Master",
+    "philosophy": "Patience and confirmation win wars",
+    "entry_rules": [
+      "Clean breakout above resistance",
+      "Volume confirms the move",
+      "Retest holds as support"
+    ],
+    "exit_rules": [
+      "Stop loss below breakout level",
+      "Take profit at next resistance",
+      "Breakdown below support"
+    ],
+    "risk_management": {
+      "stop_loss": "7%",
+      "take_profit": "20%",
+      "max_positions": 2,
+      "leverage": "10x"
+    },
+    "preferred_assets": [
+      "BTC-USD",
+      "ETH-USD",
+      "NVDA"
+    ],
+    "timeframe": "30min",
+    "character": "Eric",
+    "created_at": "2026-02-23T13:04:39.423087"
+  },
+  "Danny": {
+    "strategy_name": "ALL IN",
+    "philosophy": "YOLO - You Only Live Once",
+    "entry_rules": [
+      "Gut feeling says yes",
+      "Saw it on Twitter",
+      "FOMO is strong"
+    ],
+    "exit_rules": [
+      "Margin call",
+      "100% gain",
+      "Never (diamond hands)"
+    ],
+    "risk_management": {
+      "stop_loss": "15%",
+      "take_profit": "50%",
+      "max_positions": 1,
+      "leverage": "20x"
+    },
+    "preferred_assets": [
+      "DOGE-USD",
+      "SHIB-USD",
+      "SOL-USD"
+    ],
+    "timeframe": "1min",
+    "character": "Danny",
+    "created_at": "2026-02-23T13:04:39.423092"
+  }
+}

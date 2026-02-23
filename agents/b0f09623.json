@@ -1,0 +1,31 @@
+{
+  "agent_id": "b0f09623",
+  "name": "Gus_b0f09623",
+  "color": "\u26aa",
+  "archetype": "Mean Reverter",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 1000.0,
+  "positions": {},
+  "trades": [],
+  "pnl_history": [],
+  "strategy_params": {
+    "entry_threshold": 0.3,
+    "stop_loss_pct": 0.065,
+    "take_profit_pct": 0.136,
+    "max_positions": 3,
+    "position_size_pct": 0.46,
+    "max_leverage": 20,
+    "min_hold_minutes": 8,
+    "preferred_assets": [
+      "ETH-USD",
+      "BTC-USD",
+      "SPY"
+    ]
+  },
+  "created_at": "2026-02-23T13:04:49.643470",
+  "portfolio_value": 1000.0,
+  "total_pnl": 0.0,
+  "total_pnl_pct": 0.0,
+  "win_rate": 0.0
+}
