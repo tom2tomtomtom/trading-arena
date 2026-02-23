@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏆 Trading Arena - Industry Edition</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a0a;
+            font-family: 'Press Start 2P', monospace;
+            color: #00ff00;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .crt-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                rgba(18, 16, 16, 0) 50%,
+                rgba(0, 0, 0, 0.25) 50%
+            );
+            background-size: 100% 4px;
+            pointer-events: none;
+            z-index: 1000;
+        }
+        
+        .scanline {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: rgba(0, 255, 0, 0.1);
+            animation: scan 3s linear infinite;
+            pointer-events: none;
+            z-index: 999;
+        }
+        
+        @keyframes scan {
+            0% { transform: translateY(-10px); }
+            100% { transform: translateY(100vh); }
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 4px solid #00ff00;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            text-shadow: 4px 4px #ff00ff;
+            margin-bottom: 15px;
+            animation: glitch 2s infinite;
+        }
+        
+        @keyframes glitch {
+            0%, 100% { text-shadow: 4px 4px #ff00ff; }
+            25% { text-shadow: -4px 4px #00ffff; }
+            50% { text-shadow: 4px -4px #ffff00; }
+            75% { text-shadow: -4px -4px #ff0000; }
+        }
+        
+        .race-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            font-size: 10px;
+            color: #ffff00;
+        }
+        
+        .race-info span {
+            color: #00ff00;
+        }
+        
+        .timer {
+            text-align: center;
+            font-size: 32px;
+            color: #ff6600;
+            margin: 20px 0;
+            animation: pulse 1s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .leaderboard {
+            display: grid;
+            gap: 15px;
+        }
+        
+        .trader-card {
+            background: #1a1a1a;
+            border: 4px solid #333;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 80px 1fr 200px 150px;
+            align-items: center;
+            gap: 20px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .trader-card:hover {
+            border-color: #00ff00;
+            transform: translateX(10px);
+        }
+        
+        .trader-card.winner {
+            border-color: #ffd700;
+            background: linear-gradient(90deg, #1a1a1a 0%, #2a2510 100%);
+        }
+        
+        .trader-card.eliminated {
+            border-color: #ff0000;
+            opacity: 0.6;
+        }
+        
+        .avatar {
+            width: 64px;
+            height: 64px;
+            image-rendering: pixelated;
+            border: 2px solid currentColor;
+        }
+        
+        .trader-info h3 {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+        
+        .trader-info .archetype {
+            font-size: 8px;
+            color: #888;
+        }
+        
+        .pnl-display {
+            text-align: right;
+        }
+        
+        .pnl-value {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        .pnl-value.positive {
+            color: #00ff00;
+        }
+        
+        .pnl-value.negative {
+            color: #ff0000;
+        }
+        
+        .pnl-value.neutral {
+            color: #ffff00;
+        }
+        
+        .pnl-pct {
+            font-size: 10px;
+            color: #888;
+        }
+        
+        .stats {
+            font-size: 8px;
+            color: #666;
+            display: grid;
+            gap: 3px;
+        }
+        
+        .rank {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .rank-1 { color: #ffd700; }
+        .rank-2 { color: #c0c0c0; }
+        .rank-3 { color: #cd7f32; }
+        
+        /* 8-bit Character Sprites - CSS Generated */
+        .sprite-harper { color: #ff4444; }
+        .sprite-rishi { color: #44ff44; }
+        .sprite-gus { color: #ffff44; }
+        .sprite-yasmin { color: #ff8844; }
+        .sprite-robert { color: #4444ff; }
+        
+        .mini-chart {
+            height: 40px;
+            background: #0a0a0a;
+            border: 2px solid #333;
+            margin-top: 10px;
+            position: relative;
+        }
+        
+        .chart-line {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 8px;
+            color: #444;
+            border-top: 2px solid #333;
+            margin-top: 40px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 12px;
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        
+        /* ASCII Art for 8-bit feel */
+        .ascii-border {
+            border: 2px dashed #00ff00;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        @media (max-width: 900px) {
+            .trader-card {
+                grid-template-columns: 60px 1fr;
+                grid-template-rows: auto auto;
+            }
+            .pnl-display, .stats {
+                grid-column: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="crt-overlay"></div>
+    <div class="scanline"></div>
+    
+    <div class="container">
+        <header>
+            <h1>🏆 TRADING ARENA 🏆</h1>
+            <p style="font-size: 10px; color: #ff00ff; margin-bottom: 10px;">INDUSTRY EDITION</p>
+            <div class="race-info">
+                <div>RACE: <span id="race-id">LOADING...</span></div>
+                <div>TIER: <span style="color: #ff0000;">HIGH RISK</span></div>
+                <div>CAPITAL: <span>$1,000</span></div>
+                <div>BOTS: <span>5</span></div>
+            </div>
+        </header>
+        
+        <div class="timer" id="timer">--:--</div>
+        
+        <div id="leaderboard" class="leaderboard">
+            <div class="loading">LOADING TRADERS...</div>
+        </div>
+        
+        <footer>
+            <p>PIERPOINT & CO. // TRADING FLOOR SIMULATION</p>
+            <p style="margin-top: 10px;">"IN THIS BUSINESS, YOU'RE EITHER KILLING IT OR BEING KILLED"</p>
+        </footer>
+    </div>
+
+    <script>
+        // 8-bit Avatar SVGs for each Industry character
+        const AVATARS = {
+            harper: `<svg viewBox="0 0 16 16" class="avatar sprite-harper" style="background: #1a0a0a;">
+                <!-- Harper - Ambitious, dark hair, intense -->
+                <rect x="6" y="2" width="4" height="2" fill="#442"/>
+                <rect x="5" y="4" width="6" height="4" fill="#dcb"/>
+                <rect x="5" y="4" width="6" height="2" fill="#442"/>
+                <rect x="6" y="6" width="1" height="1" fill="#000"/>
+                <rect x="9" y="6" width="1" height="1" fill="#000"/>
+                <rect x="5" y="8" width="6" height="3" fill="#224"/>
+                <rect x="4" y="11" width="8" height="4" fill="#224"/>
+            </svg>`,
+            rishi: `<svg viewBox="0 0 16 16" class="avatar sprite-rishi" style="background: #0a1a0a;">
+                <!-- Rishi - Sharp, aggressive, slicked hair -->
+                <rect x="6" y="2" width="4" height="2" fill="#210"/>
+                <rect x="5" y="3" width="6" height="2" fill="#210"/>
+                <rect x="5" y="5" width="6" height="4" fill="#ba8"/>
+                <rect x="6" y="7" width="1" height="1" fill="#000"/>
+                <rect x="9" y="7" width="1" height="1" fill="#000"/>
+                <rect x="5" y="9" width="6" height="2" fill="#242"/>
+                <rect x="4" y="11" width="8" height="4" fill="#132"/>
+            </svg>`,
+            gus: `<svg viewBox="0 0 16 16" class="avatar sprite-gus" style="background: #1a1a0a;">
+                <!-- Gus - Intellectual, glasses, thoughtful -->
+                <rect x="6" y="2" width="4" height="2" fill="#432"/>
+                <rect x="5" y="4" width="6" height="5" fill="#cba"/>
+                <rect x="5" y="6" width="2" height="1" fill="#fff"/>
+                <rect x="9" y="6" width="2" height="1" fill="#fff"/>
+                <rect x="6" y="6" width="1" height="1" fill="#000"/>
+                <rect x="9" y="6" width="1" height="1" fill="#000"/>
+                <rect x="5" y="9" width="6" height="2" fill="#446"/>
+                <rect x="4" y="11" width="8" height="4" fill="#335"/>
+            </svg>`,
+            yasmin: `<svg viewBox="0 0 16 16" class="avatar sprite-yasmin" style="background: #1a100a;">
+                <!-- Yasmin - Polished, long hair, privileged -->
+                <rect x="6" y="2" width="4" height="3" fill="#542"/>
+                <rect x="5" y="2" width="1" height="6" fill="#542"/>
+                <rect x="10" y="2" width="1" height="6" fill="#542"/>
+                <rect x="6" y="5" width="4" height="4" fill="#eca"/>
+                <rect x="6" y="7" width="1" height="1" fill="#000"/>
+                <rect x="9" y="7" width="1" height="1" fill="#000"/>
+                <rect x="5" y="9" width="6" height="2" fill="#634"/>
+                <rect x="4" y="11" width="8" height="4" fill="#523"/>
+            </svg>`,
+            robert: `<svg viewBox="0 0 16 16" class="avatar sprite-robert" style="background: #0a0a1a;">
+                <!-- Robert - Charming, messy hair, YOLO energy -->
+                <rect x="5" y="1" width="6" height="3" fill="#ba7"/>
+                <rect x="4" y="2" width="1" height="2" fill="#ba7"/>
+                <rect x="11" y="2" width="1" height="2" fill="#ba7"/>
+                <rect x="5" y="4" width="6" height="5" fill="#db9"/>
+                <rect x="6" y="6" width="1" height="1" fill="#000"/>
+                <rect x="9" y="6" width="1" height="1" fill="#000"/>
+                <rect x="7" y="8" width="2" height="1" fill="#a55"/>
+                <rect x="5" y="9" width="6" height="2" fill="#46a"/>
+                <rect x="4" y="11" width="8" height="4" fill="#358"/>
+            </svg>`,
+            danny: `<svg viewBox="0 0 16 16" class="avatar sprite-robert" style="background: #1a0505;">
+                <!-- Danny - YOLO, stressed, wild -->
+                <rect x="5" y="0" width="6" height="4" fill="#a72"/>
+                <rect x="4" y="1" width="1" height="2" fill="#a72"/>
+                <rect x="11" y="2" width="1" height="2" fill="#a72"/>
+                <rect x="5" y="4" width="6" height="5" fill="#ca8"/>
+                <rect x="6" y="6" width="1" height="1" fill="#000"/>
+                <rect x="9" y="6" width="1" height="1" fill="#000"/>
+                <rect x="5" y="9" width="6" height="2" fill="#a33"/>
+                <rect x="4" y="11" width="8" height="4" fill="#822"/>
+            </svg>`,
+            eric: `<svg viewBox="0 0 16 16" class="avatar sprite-harper" style="background: #0a0a0a;">
+                <!-- Eric - The MD, gray hair, commanding -->
+                <rect x="6" y="1" width="4" height="3" fill="#777"/>
+                <rect x="5" y="2" width="1" height="2" fill="#777"/>
+                <rect x="10" y="2" width="1" height="2" fill="#777"/>
+                <rect x="5" y="4" width="6" height="5" fill="#cba"/>
+                <rect x="6" y="6" width="1" height="1" fill="#000"/>
+                <rect x="9" y="6" width="1" height="1" fill="#000"/>
+                <rect x="5" y="9" width="6" height="2" fill="#444"/>
+                <rect x="4" y="11" width="8" height="4" fill="#222"/>
+            </svg>`
+        };
+        
+        // Map archetypes to Industry names
+        const INDUSTRY_NAMES = {
+            'Trend Follower': { name: 'Harper', avatar: 'harper' },
+            'Scalper': { name: 'Rishi', avatar: 'rishi' },
+            'Mean Reverter': { name: 'Gus', avatar: 'gus' },
+            'Whale Watcher': { name: 'Yasmin', avatar: 'yasmin' },
+            'Momentum Surfer': { name: 'Robert', avatar: 'robert' },
+            'YOLO': { name: 'Danny', avatar: 'danny' },
+            'Breakout Hunter': { name: 'Eric', avatar: 'eric' }
+        };
+        
+        let raceStartTime = null;
+        let raceDuration = 3 * 60 * 60 * 1000; // 3 hours in ms
+        
+        async function fetchRaceData() {
+            try {
+                // Fetch from the race data endpoint
+                const response = await fetch('../races/race_20260223_091816/race_state.json');
+                if (!response.ok) throw new Error('No race data');
+                return await response.json();
+            } catch (e) {
+                // Fallback to sample data for demo
+                return getSampleData();
+            }
+        }
+        
+        function getSampleData() {
+            return {
+                race_id: "race_20260223_091816",
+                start_time: "2026-02-23T09:18:16Z",
+                duration_hours: 3,
+                agents: [
+                    { agent_id: "6052ad84", name: "Trend Follower_6052ad84", archetype: "Trend Follower", color: "🔴", portfolio_value: 1024.43, pnl: 24.43, pnl_pct: 2.44, trades: 2, win_rate: 0, positions: 2 },
+                    { agent_id: "d47d2fe2", name: "Scalper_d47d2fe2", archetype: "Scalper", color: "🟢", portfolio_value: 1000.81, pnl: 0.81, pnl_pct: 0.08, trades: 2, win_rate: 0, positions: 2 },
+                    { agent_id: "ed68064e", name: "Mean Reverter_ed68064e", archetype: "Mean Reverter", color: "🟡", portfolio_value: 1000.78, pnl: 0.78, pnl_pct: 0.08, trades: 2, win_rate: 0, positions: 2 },
+                    { agent_id: "aa648ff1", name: "Whale Watcher_aa648ff1", archetype: "Whale Watcher", color: "🟠", portfolio_value: 1000, pnl: 0, pnl_pct: 0, trades: 0, win_rate: 0, positions: 0 },
+                    { agent_id: "8bc6b863", name: "Momentum Surfer_8bc6b863", archetype: "Momentum Surfer", color: "🔵", portfolio_value: 868.34, pnl: -131.66, pnl_pct: -13.17, trades: 2, win_rate: 0, positions: 2 }
+                ]
+            };
+        }
+        
+        function formatCurrency(value) {
+            return value >= 0 ? `+$${value.toFixed(2)}` : `-$${Math.abs(value).toFixed(2)}`;
+        }
+        
+        function formatPercent(value) {
+            return value >= 0 ? `+${value.toFixed(2)}%` : `${value.toFixed(2)}%`;
+        }
+        
+        function getPnlClass(value) {
+            if (value > 0) return 'positive';
+            if (value < 0) return 'negative';
+            return 'neutral';
+        }
+        
+        function updateTimer(startTime) {
+            const now = new Date();
+            const start = new Date(startTime);
+            const elapsed = now - start;
+            const remaining = raceDuration - elapsed;
+            
+            if (remaining <= 0) {
+                document.getElementById('timer').textContent = "RACE ENDED";
+                document.getElementById('timer').style.color = '#00ff00';
+                return;
+            }
+            
+            const hours = Math.floor(remaining / (60 * 60 * 1000));
+            const minutes = Math.floor((remaining % (60 * 60 * 1000)) / (60 * 1000));
+            const seconds = Math.floor((remaining % (60 * 1000)) / 1000);
+            
+            document.getElementById('timer').textContent = 
+                `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+        
+        function renderLeaderboard(data) {
+            const container = document.getElementById('leaderboard');
+            const sorted = [...data.agents].sort((a, b) => b.pnl - a.pnl);
+            
+            let html = '';
+            sorted.forEach((agent, index) => {
+                const industry = INDUSTRY_NAMES[agent.archetype] || { name: agent.archetype, avatar: 'harper' };
+                const rank = index + 1;
+                const isWinner = rank <= 3;
+                const isEliminated = rank >= 4;
+                const avatar = AVATARS[industry.avatar] || AVATARS.harper;
+                
+                html += `
+                    <div class="trader-card ${isWinner ? 'winner' : ''} ${isEliminated ? 'eliminated' : ''}">
+                        <div class="rank rank-${rank <= 3 ? rank : ''}">#${rank}</div>
+                        ${avatar}
+                        <div class="trader-info">
+                            <h3>${industry.name}</h3>
+                            <div class="archetype">${agent.archetype}</div>
+                            <div class="mini-chart">
+                                <div class="chart-line" style="background: linear-gradient(to right, ${agent.pnl >= 0 ? '#00ff00' : '#ff0000'} ${Math.min(Math.abs(agent.pnl_pct) * 3, 100)}%, transparent 0%);"></div>
+                            </div>
+                        </div>
+                        <div class="pnl-display">
+                            <div class="pnl-value ${getPnlClass(agent.pnl)}">${formatCurrency(agent.pnl)}</div>
+                            <div class="pnl-pct ${getPnlClass(agent.pnl_pct)}">${formatPercent(agent.pnl_pct)}</div>
+                        </div>
+                        <div class="stats">
+                            <div>PORTFOLIO: $${agent.portfolio_value.toFixed(2)}</div>
+                            <div>TRADES: ${agent.trades}</div>
+                            <div>POSITIONS: ${agent.positions}</div>
+                            <div>WIN RATE: ${agent.win_rate.toFixed(0)}%</div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+            document.getElementById('race-id').textContent = data.race_id.toUpperCase();
+            
+            if (data.start_time) {
+                raceStartTime = data.start_time;
+            }
+        }
+        
+        async function init() {
+            const data = await fetchRaceData();
+            renderLeaderboard(data);
+            
+            if (raceStartTime) {
+                updateTimer(raceStartTime);
+                setInterval(() => updateTimer(raceStartTime), 1000);
+            }
+            
+            // Refresh data every 30 seconds
+            setInterval(async () => {
+                const newData = await fetchRaceData();
+                renderLeaderboard(newData);
+            }, 30000);
+        }
+        
+        init();
+    </script>
+</body>
+</html>

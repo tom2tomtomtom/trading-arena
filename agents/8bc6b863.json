@@ -1,0 +1,286 @@
+{
+  "agent_id": "8bc6b863",
+  "name": "Momentum Surfer_8bc6b863",
+  "color": "\ud83d\udd35",
+  "archetype": "Momentum Surfer",
+  "risk_tier": "high",
+  "starting_capital": 1000.0,
+  "cash": 291.6,
+  "positions": {
+    "SOL-USD": {
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "qty": 95.37422615112274,
+      "entry_price": 78.95582580566406,
+      "entry_time": "2026-02-23T09:18:29.949316",
+      "leverage": 16.37032779638708,
+      "margin": 460.0,
+      "notional_value": 7530.350786338057,
+      "unrealized_pnl": -113.88339813755852,
+      "reason": "Momentum: -4.6% and trending down",
+      "current_price": 80.14989471435547
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "LONG",
+      "qty": 9.04901651067044,
+      "entry_price": 189.8300018310547,
+      "entry_time": "2026-02-23T09:20:05.946758",
+      "leverage": 6.915357571617607,
+      "margin": 248.4,
+      "notional_value": 1717.7748207898135,
+      "unrealized_pnl": 0.0,
+      "reason": "Momentum: +1.8% and trending up",
+      "current_price": 189.8300018310547
+    }
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "price": 78.95582580566406,
+      "qty": 95.37422615112274,
+      "leverage": 16.37032779638708,
+      "margin": 460.0,
+      "time": "2026-02-23T09:18:29.949323",
+      "reason": "Momentum: -4.6% and trending down"
+    },
+    {
+      "type": "ENTRY",
+      "symbol": "NVDA",
+      "direction": "LONG",
+      "price": 189.8300018310547,
+      "qty": 9.04901651067044,
+      "leverage": 6.915357571617607,
+      "margin": 248.4,
+      "time": "2026-02-23T09:20:05.946766",
+      "reason": "Momentum: +1.8% and trending up"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T09:18:29.949370",
+      "portfolio_value": 540.0,
+      "cash": 540.0,
+      "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T09:20:05.946824",
+      "portfolio_value": 291.6058211807954,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:20:28.925309",
+      "portfolio_value": 1000.0058211807954,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:25:04.567702",
+      "portfolio_value": 1004.3549708825261,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:30:04.411852",
+      "portfolio_value": 1010.9671046184519,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:35:04.681778",
+      "portfolio_value": 1001.1802444062586,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:40:04.607847",
+      "portfolio_value": 902.5003152109726,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:45:04.734638",
+      "portfolio_value": 886.4796980145519,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:50:04.728601",
+      "portfolio_value": 883.3537239274453,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T09:55:04.873589",
+      "portfolio_value": 876.2664363090987,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:00:05.519788",
+      "portfolio_value": 864.7485024578862,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:05:04.601795",
+      "portfolio_value": 863.3375937626116,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:10:05.558381",
+      "portfolio_value": 865.2003716171257,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:15:05.574175",
+      "portfolio_value": 872.3000292446626,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:20:04.742239",
+      "portfolio_value": 879.9526990477583,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:25:04.969815",
+      "portfolio_value": 868.1982797267344,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:30:05.479037",
+      "portfolio_value": 855.5503091536234,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:35:04.979539",
+      "portfolio_value": 860.584175246408,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:40:06.274673",
+      "portfolio_value": 867.8701106593962,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:45:04.836594",
+      "portfolio_value": 867.0522347576486,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:50:07.496803",
+      "portfolio_value": 866.9423599701363,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T10:55:05.430808",
+      "portfolio_value": 882.6479057560084,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:00:05.685503",
+      "portfolio_value": 873.1135392608137,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:05:05.785420",
+      "portfolio_value": 874.9304753165643,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:10:05.782940",
+      "portfolio_value": 877.7442885835198,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:15:07.029021",
+      "portfolio_value": 869.1092945212077,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:20:05.359354",
+      "portfolio_value": 863.0072417524751,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:25:07.622092",
+      "portfolio_value": 854.5898143223894,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:30:05.853145",
+      "portfolio_value": 863.1134783019904,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:35:04.996324",
+      "portfolio_value": 865.0512038592448,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:36:44.150325",
+      "portfolio_value": 868.3350774754254,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:40:06.287662",
+      "portfolio_value": 868.0789455204297,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:45:07.328356",
+      "portfolio_value": 882.0665153240722,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:50:06.184126",
+      "portfolio_value": 886.1166018624415,
+      "cash": 291.6,
+      "positions": 2
+    }
+  ],
+  "strategy_params": {
+    "entry_threshold": 0.15,
+    "stop_loss_pct": 0.022,
+    "take_profit_pct": 0.14,
+    "max_positions": 2,
+    "position_size_pct": 0.46,
+    "max_leverage": 20,
+    "min_hold_minutes": 42,
+    "preferred_assets": [
+      "SOL-USD",
+      "NVDA",
+      "AMD"
+    ]
+  },
+  "created_at": "2026-02-23T11:50:05.469056",
+  "portfolio_value": 886.1166018624415,
+  "total_pnl": -113.88339813755852,
+  "total_pnl_pct": -11.388339813755852,
+  "win_rate": 0.0
+}
