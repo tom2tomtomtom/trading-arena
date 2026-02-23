@@ -752,8 +752,8 @@
         // Fetch data
         async function fetchData() {
             try {
-                // Try to fetch from race data
-                const response = await fetch('../races/race_20260223_091816/race_state.json');
+                // Try to fetch from current race data (Race 2)
+                const response = await fetch('../races/race_20260223_130449/race_state.json');
                 if (response.ok) {
                     raceData = await response.json();
                 } else {
@@ -763,7 +763,7 @@
                 
                 // Try to fetch strategies
                 try {
-                    const stratResponse = await fetch('../races/race_20260223_091816/strategies/race_strategies.json');
+                    const stratResponse = await fetch('../races/race_2/strategies/race_strategies.json');
                     if (stratResponse.ok) {
                         strategies = await stratResponse.json();
                     }
