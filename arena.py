@@ -27,6 +27,7 @@ from survival_mode import (
     get_elimination_warning,
     apply_survival_mode
 )
+from career_progression import record_race_result, get_career_leaderboard, get_career_summary
 
 
 class Race:
@@ -355,6 +356,34 @@ class Arena:
         survivors = leaderboard[:num_survivors]
         eliminated = leaderboard[num_survivors:]
         
+        # Record career progression for all agents
+        print("\n📊 Recording career progression...")
+        for entry in leaderboard:
+            agent_name = entry["name"]
+            rank = entry["rank"]
+            pnl = entry["pnl"]
+            pnl_pct = entry["pnl_pct"]
+            trades = entry["trades"]
+            win_rate = entry["win_rate"]
+            
+            new_achievements = record_race_result(
+                agent_name=agent_name,
+                race_id=self.current_race.race_id,
+                rank=rank,
+                total_bots=len(leaderboard),
+                pnl=pnl,
+                pnl_pct=pnl_pct,
+                trades=trades,
+                win_rate=win_rate
+            )
+        
+        # Show career leaderboard
+        print("\n🏆 CAREER LEADERBOARD:")
+        career_lb = get_career_leaderboard()
+        for i, career in enumerate(career_lb[:5], 1):
+            print(f"{i}. {career['character']} ({career['title']}) - "
+                  f"{career['wins']}W/{career['races']}R - {career['achievements']} achievements")
+        
         results = {
             "race_id": self.current_race.race_id,
             "duration": str(self.current_race.elapsed_time),
@@ -362,6 +391,7 @@ class Arena:
             "survivors": [s["name"] for s in survivors],
             "eliminated": [e["name"] for e in eliminated],
             "total_pnl": sum(a.total_pnl for a in self.current_race.agents),
+            "career_leaderboard": career_lb[:5],
         }
         
         self._save_race(self.current_race)

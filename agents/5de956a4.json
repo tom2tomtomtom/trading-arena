@@ -16,9 +16,9 @@
       "leverage": 6.0,
       "margin": 460.0,
       "notional_value": 2760.0,
-      "unrealized_pnl": 0.852968781688779,
+      "unrealized_pnl": 1.7075647453342324,
       "reason": "Scalp: -1.9% move",
-      "current_price": 66236.7109375
+      "current_price": 66216.1953125
     },
     "ETH-USD": {
       "symbol": "ETH-USD",
@@ -29,8 +29,9 @@
       "leverage": 6.0,
       "margin": 248.4,
       "notional_value": 1490.4,
-      "unrealized_pnl": 0.0,
-      "reason": "Scalp: -1.9% move"
+      "unrealized_pnl": 1.53975440117033,
+      "reason": "Scalp: -1.9% move",
+      "current_price": 1919.9649658203125
     }
   },
   "trades": [
@@ -69,6 +70,24 @@
       "portfolio_value": 1000.8529687816888,
       "cash": 291.6,
       "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T13:17:11.832467",
+      "portfolio_value": 1002.2931399030097,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T13:17:30.194667",
+      "portfolio_value": 1002.2931399030097,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T13:20:05.258106",
+      "portfolio_value": 1003.2473191465045,
+      "cash": 291.6,
+      "positions": 2
     }
   ],
   "strategy_params": {
@@ -84,9 +103,9 @@
       "ETH-USD"
     ]
   },
-  "created_at": "2026-02-23T13:15:50.071700",
-  "portfolio_value": 1000.8529687816888,
-  "total_pnl": 0.8529687816887872,
-  "total_pnl_pct": 0.08529687816887872,
+  "created_at": "2026-02-23T13:20:04.921390",
+  "portfolio_value": 1003.2473191465045,
+  "total_pnl": 3.2473191465045375,
+  "total_pnl_pct": 0.32473191465045376,
   "win_rate": 0.0
 }
