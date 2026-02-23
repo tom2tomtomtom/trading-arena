@@ -16,9 +16,9 @@
       "leverage": 7.0,
       "margin": 140.0,
       "notional_value": 980.0,
-      "unrealized_pnl": -0.5268084122948925,
+      "unrealized_pnl": 0.3040212618442339,
       "reason": "Trend: Above SMA, RSI 57",
-      "current_price": 66221.5703125
+      "current_price": 66277.7421875
     },
     "QQQ": {
       "symbol": "QQQ",
@@ -94,6 +94,30 @@
       "portfolio_value": 999.4731915877051,
       "cash": 739.6,
       "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T13:30:06.958400",
+      "portfolio_value": 998.3873353362607,
+      "cash": 739.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T13:35:06.242400",
+      "portfolio_value": 999.8641090825053,
+      "cash": 739.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T13:40:17.482386",
+      "portfolio_value": 999.1703258608736,
+      "cash": 739.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T13:45:06.080036",
+      "portfolio_value": 1000.3040212618442,
+      "cash": 739.6,
+      "positions": 2
     }
   ],
   "strategy_params": {
@@ -110,9 +134,9 @@
       "NVDA"
     ]
   },
-  "created_at": "2026-02-23T13:25:06.503081",
-  "portfolio_value": 999.4731915877051,
-  "total_pnl": -0.5268084122949404,
-  "total_pnl_pct": -0.05268084122949404,
+  "created_at": "2026-02-23T13:45:05.497073",
+  "portfolio_value": 1000.3040212618442,
+  "total_pnl": 0.30402126184424105,
+  "total_pnl_pct": 0.030402126184424103,
   "win_rate": 0.0
 }

@@ -44,6 +44,30 @@
       "portfolio_value": 1000.0,
       "cash": 1000.0,
       "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:30:06.868889",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:35:06.149028",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:40:17.400629",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:45:05.973033",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
     }
   ],
   "strategy_params": {
@@ -60,7 +84,7 @@
       "SPY"
     ]
   },
-  "created_at": "2026-02-23T13:25:06.503064",
+  "created_at": "2026-02-23T13:45:05.497061",
   "portfolio_value": 1000.0,
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,
