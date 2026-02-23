@@ -1,0 +1,134 @@
+{
+  "researched_traders": [
+    {
+      "name": "Ross Cameron",
+      "channel": "Warrior Trading",
+      "track_record": "$583 to $10M+",
+      "archetype": "Momentum Scalper",
+      "timeframe": "1-5 min",
+      "bias": "Long",
+      "entry_rules": [
+        "Strong directional movement confirmed",
+        "High relative volume",
+        "Clean price action (no dojis)",
+        "Momentum on 1-min chart"
+      ],
+      "exit_rules": [
+        "Cut immediately on 5-10s stall",
+        "Exit on momentum stall",
+        "Avoid backside of moves",
+        "1-2 dojis = immediate exit"
+      ],
+      "risk_management": {
+        "stop_loss": "Immediate on hesitation",
+        "position_size": "Small (quick scalp)",
+        "setup_quality": "A+ only"
+      },
+      "preferred_assets": ["Small-cap stocks", "Low float", "Gappers"],
+      "key_lessons": ["Front side only", "Cut fast", "Quality over quantity"]
+    },
+    {
+      "name": "Andrew Aziz",
+      "channel": "Bear Bull Traders",
+      "track_record": "Professional scalper",
+      "archetype": "Order Flow Scalper",
+      "timeframe": "1-5 min",
+      "bias": "Neutral",
+      "entry_rules": [
+        "Liquidity zone identified",
+        "Support/resistance level tested",
+        "VWAP setup confirmed",
+        "Opening range breakout"
+      ],
+      "exit_rules": [
+        "1:2 risk/reward minimum",
+        "Max 2-3 trades per day",
+        "Daily loss limit hit"
+      ],
+      "risk_management": {
+        "risk_reward": "1:2 minimum",
+        "max_trades": "2-3 per day",
+        "daily_loss_limit": "$200-500"
+      },
+      "preferred_assets": ["Liquid stocks", "Large caps"],
+      "key_lessons": ["Read order flow", "DOM reading", "Patience for setup"]
+    },
+    {
+      "name": "Adam Khoo",
+      "channel": "Adam Khoo",
+      "track_record": "Multi-millionaire trader",
+      "archetype": "Trend Follower",
+      "timeframe": "15min-1hr",
+      "bias": "Trend direction",
+      "entry_rules": [
+        "Daily trend established",
+        "Pullback to support/EMA",
+        "Confirmation candle on lower timeframe",
+        "Risk/reward 1:3 or better"
+      ],
+      "exit_rules": [
+        "Stop loss below support",
+        "Take profit at next resistance",
+        "Trailing stop in profit"
+      ],
+      "risk_management": {
+        "risk_per_trade": "1-2%",
+        "position_sizing": "Volatility based",
+        "portfolio_heat": "Managed"
+      },
+      "preferred_assets": ["Large caps", "Forex", "Crypto"],
+      "key_lessons": ["Multi-timeframe", "Patience", "Risk management"]
+    },
+    {
+      "name": "Patrick Wieland",
+      "channel": "The Trading Channel",
+      "track_record": "Forex specialist",
+      "archetype": "Pattern Trader",
+      "timeframe": "15min-4hr",
+      "bias": "Pattern direction",
+      "entry_rules": [
+        "Clear pattern completion",
+        "Volume confirmation",
+        "Break of key level",
+        "Retest and hold"
+      ],
+      "exit_rules": [
+        "Stop below pattern invalidation",
+        "Target at measured move",
+        "Time-based if no momentum"
+      ],
+      "risk_management": {
+        "pattern_validation": "Required",
+        "measured_move": "Target",
+        "time_stops": "Yes"
+      },
+      "preferred_assets": ["Forex pairs", "Clean charts"],
+      "key_lessons": ["Pattern recognition", "Clean setups", "Measured moves"]
+    },
+    {
+      "name": "Oliver Velez",
+      "channel": "Oliver Velez Trading",
+      "track_record": "Proprietary trader",
+      "archetype": "Micro Scalper",
+      "timeframe": "1 min",
+      "bias": "Opening range",
+      "entry_rules": [
+        "Opening range break",
+        "Volume spike 2x average",
+        "Direct move (no consolidation)"
+      ],
+      "exit_rules": [
+        "20-30 cent scalps",
+        "Immediate exit on stall",
+        "Never hold past 11:30 AM"
+      ],
+      "risk_management": {
+        "time_limit": "30 min only",
+        "scalp_size": "20-30 cents",
+        "session": "Opening only"
+      },
+      "preferred_assets": ["High volume stocks", "Gappers"],
+      "key_lessons": ["Speed", "Opening range", "Time discipline"]
+    }
+  ]
+}
