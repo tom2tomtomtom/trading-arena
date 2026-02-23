@@ -16,9 +16,9 @@
       "leverage": 16.37032779638708,
       "margin": 460.0,
       "notional_value": 7530.350786338057,
-      "unrealized_pnl": -113.88339813755852,
+      "unrealized_pnl": -110.77343229763925,
       "reason": "Momentum: -4.6% and trending down",
-      "current_price": 80.14989471435547
+      "current_price": 80.1172866821289
     },
     "NVDA": {
       "symbol": "NVDA",
@@ -262,6 +262,42 @@
       "portfolio_value": 886.1166018624415,
       "cash": 291.6,
       "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:55:05.857851",
+      "portfolio_value": 893.3785249046489,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:00:11.301222",
+      "portfolio_value": 892.5701084216937,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:05:06.054353",
+      "portfolio_value": 895.8277867242952,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:10:06.221168",
+      "portfolio_value": 895.2165627407827,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:15:09.999751",
+      "portfolio_value": 888.0521444768975,
+      "cash": 291.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:17:48.183328",
+      "portfolio_value": 889.2265677023607,
+      "cash": 291.6,
+      "positions": 2
     }
   ],
   "strategy_params": {
@@ -278,9 +314,9 @@
       "AMD"
     ]
   },
-  "created_at": "2026-02-23T11:50:05.469056",
-  "portfolio_value": 886.1166018624415,
-  "total_pnl": -113.88339813755852,
-  "total_pnl_pct": -11.388339813755852,
+  "created_at": "2026-02-23T12:17:47.511785",
+  "portfolio_value": 889.2265677023607,
+  "total_pnl": -110.77343229763926,
+  "total_pnl_pct": -11.077343229763926,
   "win_rate": 0.0
 }

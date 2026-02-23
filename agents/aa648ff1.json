@@ -212,6 +212,42 @@
       "portfolio_value": 1000.0,
       "cash": 1000.0,
       "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T11:55:05.679487",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T12:00:11.112274",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T12:05:05.857584",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T12:10:06.048488",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T12:15:09.823380",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T12:17:48.005754",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
     }
   ],
   "strategy_params": {
@@ -228,7 +264,7 @@
       "SOL-USD"
     ]
   },
-  "created_at": "2026-02-23T11:50:05.469011",
+  "created_at": "2026-02-23T12:17:47.511758",
   "portfolio_value": 1000.0,
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,

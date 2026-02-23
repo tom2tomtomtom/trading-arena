@@ -16,9 +16,9 @@
       "leverage": 5.834311978421118,
       "margin": 420.0,
       "notional_value": 2450.4110309368693,
-      "unrealized_pnl": -4.823276744609582,
+      "unrealized_pnl": -8.17144708835838,
       "reason": "Overbought: RSI 85",
-      "current_price": 1912.9339599609375
+      "current_price": 1915.5426025390625
     },
     "BTC-USD": {
       "symbol": "BTC-USD",
@@ -29,9 +29,9 @@
       "leverage": 5.688914594788746,
       "margin": 243.6,
       "notional_value": 1385.8195952905385,
-      "unrealized_pnl": 4.783168539636132,
+      "unrealized_pnl": 3.381784645052703,
       "reason": "Overbought: RSI 84",
-      "current_price": 66150.375
+      "current_price": 66217.5
     }
   },
   "trades": [
@@ -262,6 +262,42 @@
       "portfolio_value": 999.9598917950266,
       "cash": 336.4,
       "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:55:05.773511",
+      "portfolio_value": 997.5873216691774,
+      "cash": 336.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:00:11.211571",
+      "portfolio_value": 997.9632359826875,
+      "cash": 336.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:05:05.955083",
+      "portfolio_value": 996.1214351208209,
+      "cash": 336.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:10:06.137683",
+      "portfolio_value": 997.3835549401507,
+      "cash": 336.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:15:09.913541",
+      "portfolio_value": 996.494743082681,
+      "cash": 336.4,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:17:48.089891",
+      "portfolio_value": 995.2103375566943,
+      "cash": 336.4,
+      "positions": 2
     }
   ],
   "strategy_params": {
@@ -278,9 +314,9 @@
       "SPY"
     ]
   },
-  "created_at": "2026-02-23T11:50:05.469030",
-  "portfolio_value": 999.9598917950266,
-  "total_pnl": -0.04010820497342138,
-  "total_pnl_pct": -0.004010820497342138,
+  "created_at": "2026-02-23T12:17:47.511770",
+  "portfolio_value": 995.2103375566943,
+  "total_pnl": -4.789662443305701,
+  "total_pnl_pct": -0.4789662443305701,
   "win_rate": 0.0
 }

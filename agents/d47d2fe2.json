@@ -16,9 +16,9 @@
       "leverage": 6.0,
       "margin": 340.0,
       "notional_value": 2040.0,
-      "unrealized_pnl": 0.3403749423905385,
+      "unrealized_pnl": -1.7293359599587232,
       "reason": "Scalp: -2.0% move",
-      "current_price": 66150.375
+      "current_price": 66217.5
     },
     "ETH-USD": {
       "symbol": "ETH-USD",
@@ -29,9 +29,9 @@
       "leverage": 6.0,
       "margin": 224.4,
       "notional_value": 1346.4,
-      "unrealized_pnl": 6.55960068775466,
+      "unrealized_pnl": 4.732478169834963,
       "reason": "Scalp: -1.6% move",
-      "current_price": 1912.9339599609375
+      "current_price": 1915.5426025390625
     }
   },
   "trades": [
@@ -262,6 +262,42 @@
       "portfolio_value": 1006.8999756301451,
       "cash": 435.6,
       "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T11:55:05.774325",
+      "portfolio_value": 1004.5791350905764,
+      "cash": 435.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:00:11.212374",
+      "portfolio_value": 1005.4185311027169,
+      "cash": 435.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:05:05.955649",
+      "portfolio_value": 1003.5601764801694,
+      "cash": 435.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:10:06.138510",
+      "portfolio_value": 1004.4917833837328,
+      "cash": 435.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:15:09.914140",
+      "portfolio_value": 1003.7626784784784,
+      "cash": 435.6,
+      "positions": 2
+    },
+    {
+      "timestamp": "2026-02-23T12:17:48.090498",
+      "portfolio_value": 1003.0031422098763,
+      "cash": 435.6,
+      "positions": 2
     }
   ],
   "strategy_params": {
@@ -277,9 +313,9 @@
       "ETH-USD"
     ]
   },
-  "created_at": "2026-02-23T11:50:05.469043",
-  "portfolio_value": 1006.8999756301451,
-  "total_pnl": 6.89997563014515,
-  "total_pnl_pct": 0.689997563014515,
+  "created_at": "2026-02-23T12:17:47.511778",
+  "portfolio_value": 1003.0031422098763,
+  "total_pnl": 3.0031422098762732,
+  "total_pnl_pct": 0.30031422098762733,
   "win_rate": 0.0
 }
