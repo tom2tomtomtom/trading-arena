@@ -5,10 +5,42 @@
   "archetype": "Momentum Surfer",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 1000.0,
-  "positions": {},
-  "trades": [],
-  "pnl_history": [],
+  "cash": 830.0,
+  "positions": {
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "LONG",
+      "qty": 6.19296621100634,
+      "entry_price": 189.8300018310547,
+      "entry_time": "2026-02-23T13:10:05.526650",
+      "leverage": 6.915357571617607,
+      "margin": 170.0,
+      "notional_value": 1175.6107871749932,
+      "unrealized_pnl": 0.0,
+      "reason": "Momentum: +1.8% and trending up"
+    }
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "NVDA",
+      "direction": "LONG",
+      "price": 189.8300018310547,
+      "qty": 6.19296621100634,
+      "leverage": 6.915357571617607,
+      "margin": 170.0,
+      "time": "2026-02-23T13:10:05.526662",
+      "reason": "Momentum: +1.8% and trending up"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T13:10:05.526728",
+      "portfolio_value": 1000.0,
+      "cash": 830.0,
+      "positions": 1
+    }
+  ],
   "strategy_params": {
     "entry_threshold": 0.24,
     "stop_loss_pct": 0.022,
@@ -23,7 +55,7 @@
       "AMD"
     ]
   },
-  "created_at": "2026-02-23T13:04:49.647718",
+  "created_at": "2026-02-23T13:10:04.667284",
   "portfolio_value": 1000.0,
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,

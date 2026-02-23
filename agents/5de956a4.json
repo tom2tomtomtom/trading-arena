@@ -5,10 +5,42 @@
   "archetype": "Scalper",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 1000.0,
-  "positions": {},
-  "trades": [],
-  "pnl_history": [],
+  "cash": 540.0,
+  "positions": {
+    "BTC-USD": {
+      "symbol": "BTC-USD",
+      "direction": "SHORT",
+      "qty": 0.0416558580908675,
+      "entry_price": 66257.1875,
+      "entry_time": "2026-02-23T13:10:05.007562",
+      "leverage": 6.0,
+      "margin": 460.0,
+      "notional_value": 2760.0,
+      "unrealized_pnl": 0.0,
+      "reason": "Scalp: -1.9% move"
+    }
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "BTC-USD",
+      "direction": "SHORT",
+      "price": 66257.1875,
+      "qty": 0.0416558580908675,
+      "leverage": 6.0,
+      "margin": 460.0,
+      "time": "2026-02-23T13:10:05.007570",
+      "reason": "Scalp: -1.9% move"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T13:10:05.007638",
+      "portfolio_value": 1000.0,
+      "cash": 540.0,
+      "positions": 1
+    }
+  ],
   "strategy_params": {
     "entry_threshold": 0.34,
     "stop_loss_pct": 0.01,
@@ -22,7 +54,7 @@
       "ETH-USD"
     ]
   },
-  "created_at": "2026-02-23T13:04:49.642321",
+  "created_at": "2026-02-23T13:10:04.667209",
   "portfolio_value": 1000.0,
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,

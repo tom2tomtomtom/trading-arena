@@ -14,7 +14,98 @@
   "start_time": "2026-02-23T13:04:54.544631",
   "end_time": null,
   "status": "running",
-  "snapshots": [],
+  "snapshots": [
+    {
+      "timestamp": "2026-02-23T13:10:07.796619",
+      "elapsed_seconds": 313.252011,
+      "leaderboard": [
+        {
+          "rank": 1,
+          "color": "\ud83d\udfe3",
+          "name": "Rishi_5de956a4",
+          "archetype": "Scalper",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 2,
+          "color": "\u26aa",
+          "name": "Gus_b0f09623",
+          "archetype": "Mean Reverter",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 3,
+          "color": "\ud83d\udfe4",
+          "name": "Harper_95430529",
+          "archetype": "Trend Follower",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 4,
+          "color": "\u2b1b",
+          "name": "Danny_a8e97c24",
+          "archetype": "YOLO",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 5,
+          "color": "\ud83e\ude77",
+          "name": "Venetia_0a6e6925",
+          "archetype": "Sentiment Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        },
+        {
+          "rank": 6,
+          "color": "\u2b1b",
+          "name": "Robert_f4e58cd3",
+          "archetype": "Momentum Surfer",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 1,
+          "win_rate": 0.0,
+          "positions": 1
+        },
+        {
+          "rank": 7,
+          "color": "\ud83d\udfe4",
+          "name": "Clement_b5a2e495",
+          "archetype": "Pairs Trader",
+          "portfolio_value": 1000.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "trades": 0,
+          "win_rate": 0.0,
+          "positions": 0
+        }
+      ]
+    }
+  ],
   "agents_full": [
     {
       "agent_id": "5de956a4",
@@ -23,10 +114,42 @@
       "archetype": "Scalper",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 1000.0,
-      "positions": {},
-      "trades": [],
-      "pnl_history": [],
+      "cash": 540.0,
+      "positions": {
+        "BTC-USD": {
+          "symbol": "BTC-USD",
+          "direction": "SHORT",
+          "qty": 0.0416558580908675,
+          "entry_price": 66257.1875,
+          "entry_time": "2026-02-23T13:10:05.007562",
+          "leverage": 6.0,
+          "margin": 460.0,
+          "notional_value": 2760.0,
+          "unrealized_pnl": 0.0,
+          "reason": "Scalp: -1.9% move"
+        }
+      },
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "BTC-USD",
+          "direction": "SHORT",
+          "price": 66257.1875,
+          "qty": 0.0416558580908675,
+          "leverage": 6.0,
+          "margin": 460.0,
+          "time": "2026-02-23T13:10:05.007570",
+          "reason": "Scalp: -1.9% move"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T13:10:05.007638",
+          "portfolio_value": 1000.0,
+          "cash": 540.0,
+          "positions": 1
+        }
+      ],
       "strategy_params": {
         "entry_threshold": 0.34,
         "stop_loss_pct": 0.01,
@@ -40,7 +163,7 @@
           "ETH-USD"
         ]
       },
-      "created_at": "2026-02-23T13:04:54.542881",
+      "created_at": "2026-02-23T13:10:04.667209",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -56,7 +179,14 @@
       "cash": 1000.0,
       "positions": {},
       "trades": [],
-      "pnl_history": [],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T13:10:05.150965",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        }
+      ],
       "strategy_params": {
         "entry_threshold": 0.3,
         "stop_loss_pct": 0.065,
@@ -71,7 +201,7 @@
           "SPY"
         ]
       },
-      "created_at": "2026-02-23T13:04:54.542918",
+      "created_at": "2026-02-23T13:10:04.667248",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -84,10 +214,42 @@
       "archetype": "Trend Follower",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 1000.0,
-      "positions": {},
-      "trades": [],
-      "pnl_history": [],
+      "cash": 860.0,
+      "positions": {
+        "BTC-USD": {
+          "symbol": "BTC-USD",
+          "direction": "LONG",
+          "qty": 0.01479084816269933,
+          "entry_price": 66257.1875,
+          "entry_time": "2026-02-23T13:10:05.178942",
+          "leverage": 7.0,
+          "margin": 140.0,
+          "notional_value": 980.0,
+          "unrealized_pnl": 0.0,
+          "reason": "Trend: Above SMA, RSI 57"
+        }
+      },
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "BTC-USD",
+          "direction": "LONG",
+          "price": 66257.1875,
+          "qty": 0.01479084816269933,
+          "leverage": 7.0,
+          "margin": 140.0,
+          "time": "2026-02-23T13:10:05.178966",
+          "reason": "Trend: Above SMA, RSI 57"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T13:10:05.179032",
+          "portfolio_value": 1000.0,
+          "cash": 860.0,
+          "positions": 1
+        }
+      ],
       "strategy_params": {
         "entry_threshold": 0.38,
         "stop_loss_pct": 0.022,
@@ -102,7 +264,7 @@
           "NVDA"
         ]
       },
-      "created_at": "2026-02-23T13:04:54.542930",
+      "created_at": "2026-02-23T13:10:04.667259",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -118,7 +280,14 @@
       "cash": 1000.0,
       "positions": {},
       "trades": [],
-      "pnl_history": [],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T13:10:05.275062",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        }
+      ],
       "strategy_params": {
         "entry_threshold": 0.26,
         "stop_loss_pct": 0.068,
@@ -133,7 +302,7 @@
           "SOL-USD"
         ]
       },
-      "created_at": "2026-02-23T13:04:54.542937",
+      "created_at": "2026-02-23T13:10:04.667270",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -149,7 +318,14 @@
       "cash": 1000.0,
       "positions": {},
       "trades": [],
-      "pnl_history": [],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T13:10:05.402161",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        }
+      ],
       "strategy_params": {
         "entry_threshold": 0.21,
         "stop_loss_pct": 0.074,
@@ -164,7 +340,7 @@
           "TSLA"
         ]
       },
-      "created_at": "2026-02-23T13:04:54.542960",
+      "created_at": "2026-02-23T13:10:04.667277",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -177,10 +353,42 @@
       "archetype": "Momentum Surfer",
       "risk_tier": "high",
       "starting_capital": 1000.0,
-      "cash": 1000.0,
-      "positions": {},
-      "trades": [],
-      "pnl_history": [],
+      "cash": 830.0,
+      "positions": {
+        "NVDA": {
+          "symbol": "NVDA",
+          "direction": "LONG",
+          "qty": 6.19296621100634,
+          "entry_price": 189.8300018310547,
+          "entry_time": "2026-02-23T13:10:05.526650",
+          "leverage": 6.915357571617607,
+          "margin": 170.0,
+          "notional_value": 1175.6107871749932,
+          "unrealized_pnl": 0.0,
+          "reason": "Momentum: +1.8% and trending up"
+        }
+      },
+      "trades": [
+        {
+          "type": "ENTRY",
+          "symbol": "NVDA",
+          "direction": "LONG",
+          "price": 189.8300018310547,
+          "qty": 6.19296621100634,
+          "leverage": 6.915357571617607,
+          "margin": 170.0,
+          "time": "2026-02-23T13:10:05.526662",
+          "reason": "Momentum: +1.8% and trending up"
+        }
+      ],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T13:10:05.526728",
+          "portfolio_value": 1000.0,
+          "cash": 830.0,
+          "positions": 1
+        }
+      ],
       "strategy_params": {
         "entry_threshold": 0.24,
         "stop_loss_pct": 0.022,
@@ -195,7 +403,7 @@
           "AMD"
         ]
       },
-      "created_at": "2026-02-23T13:04:54.542968",
+      "created_at": "2026-02-23T13:10:04.667284",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,
@@ -211,7 +419,14 @@
       "cash": 1000.0,
       "positions": {},
       "trades": [],
-      "pnl_history": [],
+      "pnl_history": [
+        {
+          "timestamp": "2026-02-23T13:10:07.796057",
+          "portfolio_value": 1000.0,
+          "cash": 1000.0,
+          "positions": 0
+        }
+      ],
       "strategy_params": {
         "entry_threshold": 0.15,
         "stop_loss_pct": 0.029,
@@ -225,7 +440,7 @@
           "SPY/QQQ"
         ]
       },
-      "created_at": "2026-02-23T13:04:54.542973",
+      "created_at": "2026-02-23T13:10:04.667289",
       "portfolio_value": 1000.0,
       "total_pnl": 0.0,
       "total_pnl_pct": 0.0,

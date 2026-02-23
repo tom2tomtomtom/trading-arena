@@ -21,6 +21,12 @@ from config import (
 )
 from agent_factory import AgentFactory, TradingAgent
 from paper_trader import PaperTrader, SignalGenerator
+from survival_mode import (
+    calculate_standings,
+    get_elimination_zone,
+    get_elimination_warning,
+    apply_survival_mode
+)
 
 
 class Race:
@@ -191,12 +197,62 @@ class Arena:
             self.end_race()
             return {"status": "race_complete"}
         
+        # Check for elimination warnings
+        minutes_remaining = self.current_race.time_remaining.total_seconds() / 60
+        current_leaderboard = self.current_race.get_leaderboard()
+        warning = get_elimination_warning(minutes_remaining, current_leaderboard)
+        if warning:
+            print(f"\n{warning}\n")
+        
+        # Calculate standings and elimination zone
+        standings = calculate_standings([
+            {
+                'agent_id': a.agent_id,
+                'name': a.name,
+                'total_pnl': a.total_pnl,
+                'pnl_pct': a.total_pnl_pct
+            }
+            for a in self.current_race.agents
+        ])
+        elimination_zone = get_elimination_zone(standings, len(self.current_race.agents))
+        
         results = {
             "timestamp": datetime.utcnow().isoformat(),
             "agents": [],
+            "survival_mode_active": False,
         }
         
         for agent in self.current_race.agents:
+            # Apply survival mode if in danger
+            is_in_danger = agent.agent_id in elimination_zone
+            if is_in_danger:
+                results["survival_mode_active"] = True
+                # Convert agent to dict for survival mode, then apply changes
+                agent_dict = {
+                    'agent_id': agent.agent_id,
+                    'name': agent.name,
+                    'character': agent.name.split('_')[0] if '_' in agent.name else agent.name,
+                    'archetype': agent.archetype['name'],
+                    'risk_management': agent.strategy_params.copy(),
+                    'total_pnl': agent.total_pnl,
+                    'pnl_pct': agent.total_pnl_pct
+                }
+                survival_data = apply_survival_mode(agent_dict, standings, is_in_danger)
+                
+                # Print survival quote if in danger
+                if 'survival' in survival_data and survival_data['survival'].get('in_danger'):
+                    quote = survival_data['survival']['quote']
+                    mode = survival_data['survival']['mode']
+                    action = survival_data['survival']['action']
+                    print(f"\n🔥 {agent.name}: \"{quote}\"")
+                    print(f"   Mode: {mode} | Action: {action}")
+                    
+                    # Apply risk adjustments to agent
+                    if 'risk_management' in survival_data:
+                        new_risk = survival_data['risk_management']
+                        if 'leverage' in new_risk:
+                            agent.strategy_params['max_leverage'] = int(str(new_risk['leverage']).rstrip('x'))
+            
             agent_result = self._run_agent_cycle(agent)
             results["agents"].append(agent_result)
             self.factory.save_agent(agent)
@@ -326,6 +382,28 @@ class Arena:
         print(f"\n💰 Total Portfolio P&L: ${results['total_pnl']:.2f}")
         print(f"🏆 Survivors: {', '.join(results['survivors'])}")
         print(f"💀 Eliminated: {', '.join(results['eliminated'])}")
+        
+        # Dramatic elimination announcement
+        print("\n" + "=" * 60)
+        print("🔥 ELIMINATION CEREMONY 🔥")
+        print("=" * 60)
+        for e in eliminated:
+            char_name = e.split('_')[0] if '_' in e else e
+            dramatic_lines = {
+                'Harper': "Your ambition was admirable... but ambition without results is nothing.",
+                'Rishi': "Fast doesn't always mean profitable. Pack your knives.",
+                'Yasmin': "Even privilege has its limits. You're out.",
+                'Gus': "Your models failed. The market doesn't care about your statistics.",
+                'Robert': "YOLO doesn't always work. Unfortunately, you YOLO'd your account.",
+                'Eric': "The mentor has become the student... in failure.",
+                'Danny': "We knew you'd go out like this. At least you went out swinging.",
+                'Venetia': "Sentiment turned against you. Including ours.",
+                'Clement': "Pairs diverged, and so did your career here."
+            }
+            print(f"\n💀 {e}")
+            print(f"   \"{dramatic_lines.get(char_name, 'Your strategy failed.')}\"")
+        
+        print(f"\n🎉 {', '.join(results['survivors'])} - You've earned your place in the next race!")
         
         return results
     

@@ -5,10 +5,42 @@
   "archetype": "Trend Follower",
   "risk_tier": "high",
   "starting_capital": 1000.0,
-  "cash": 1000.0,
-  "positions": {},
-  "trades": [],
-  "pnl_history": [],
+  "cash": 860.0,
+  "positions": {
+    "BTC-USD": {
+      "symbol": "BTC-USD",
+      "direction": "LONG",
+      "qty": 0.01479084816269933,
+      "entry_price": 66257.1875,
+      "entry_time": "2026-02-23T13:10:05.178942",
+      "leverage": 7.0,
+      "margin": 140.0,
+      "notional_value": 980.0,
+      "unrealized_pnl": 0.0,
+      "reason": "Trend: Above SMA, RSI 57"
+    }
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "symbol": "BTC-USD",
+      "direction": "LONG",
+      "price": 66257.1875,
+      "qty": 0.01479084816269933,
+      "leverage": 7.0,
+      "margin": 140.0,
+      "time": "2026-02-23T13:10:05.178966",
+      "reason": "Trend: Above SMA, RSI 57"
+    }
+  ],
+  "pnl_history": [
+    {
+      "timestamp": "2026-02-23T13:10:05.179032",
+      "portfolio_value": 1000.0,
+      "cash": 860.0,
+      "positions": 1
+    }
+  ],
   "strategy_params": {
     "entry_threshold": 0.38,
     "stop_loss_pct": 0.022,
@@ -23,7 +55,7 @@
       "NVDA"
     ]
   },
-  "created_at": "2026-02-23T13:04:49.644251",
+  "created_at": "2026-02-23T13:10:04.667259",
   "portfolio_value": 1000.0,
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,
