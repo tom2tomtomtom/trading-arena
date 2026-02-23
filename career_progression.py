@@ -8,6 +8,8 @@ from datetime import datetime
 from typing import Dict, List, Optional
 from pathlib import Path
 
+from desk_management import check_and_create_desk, desk_manager
+
 CAREER_FILE = "careers/career_tracker.json"
 
 # Achievement tiers
@@ -257,6 +259,15 @@ class CareerTracker:
             if new_title in ["VP - Trading", "Director", "MD", "Partner"]:
                 career["vp_benefits_active"] = True
                 print(f"⭐ {character} PROMOTED to {new_title}! VP Benefits activated!")
+                
+                # Create their trading desk!
+                from desk_management import check_and_create_desk
+                desk = check_and_create_desk(agent_name, character, new_title)
+                if desk:
+                    career["desk_id"] = desk.desk_id
+                    career["desk_name"] = desk.desk_name
+                    print(f"   🏢 {character} now runs: {desk.desk_name}")
+                    print(f"   💼 Can hire up to {desk.juniors} junior traders")
             else:
                 print(f"📈 {character} promoted to {new_title}!")
     

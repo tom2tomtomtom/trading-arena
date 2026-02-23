@@ -64,6 +64,12 @@
       "portfolio_value": 1000.0,
       "cash": 830.0,
       "positions": 1
+    },
+    {
+      "timestamp": "2026-02-23T13:25:07.362137",
+      "portfolio_value": 1000.0,
+      "cash": 830.0,
+      "positions": 1
     }
   ],
   "strategy_params": {
@@ -80,7 +86,7 @@
       "AMD"
     ]
   },
-  "created_at": "2026-02-23T13:20:04.921486",
+  "created_at": "2026-02-23T13:25:06.503111",
   "portfolio_value": 1000.0,
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,

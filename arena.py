@@ -28,6 +28,7 @@ from survival_mode import (
     apply_survival_mode
 )
 from career_progression import record_race_result, get_career_leaderboard, get_career_summary
+from desk_management import get_desk_leaderboard, desk_manager
 
 
 class Race:
@@ -383,6 +384,9 @@ class Arena:
         for i, career in enumerate(career_lb[:5], 1):
             print(f"{i}. {career['character']} ({career['title']}) - "
                   f"{career['wins']}W/{career['races']}R - {career['achievements']} achievements")
+        
+        # Show desk leaderboard
+        print(get_desk_leaderboard())
         
         results = {
             "race_id": self.current_race.race_id,

@@ -38,6 +38,12 @@
       "portfolio_value": 1000.0,
       "cash": 1000.0,
       "positions": 0
+    },
+    {
+      "timestamp": "2026-02-23T13:25:07.127720",
+      "portfolio_value": 1000.0,
+      "cash": 1000.0,
+      "positions": 0
     }
   ],
   "strategy_params": {
@@ -54,7 +60,7 @@
       "SOL-USD"
     ]
   },
-  "created_at": "2026-02-23T13:20:04.921455",
+  "created_at": "2026-02-23T13:25:06.503091",
   "portfolio_value": 1000.0,
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,
